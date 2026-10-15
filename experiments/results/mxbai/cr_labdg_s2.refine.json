@@ -1,0 +1,39 @@
+{
+ "ds": "mxbai",
+ "n": 769382,
+ "d": 1024,
+ "c": 3509,
+ "K": 64,
+ "T": 4096,
+ "rule": "hartigan",
+ "update": "seq",
+ "cert": true,
+ "init": "labels",
+ "final": "none",
+ "ann_nprobe": 8,
+ "refresh": 0,
+ "seed": 2,
+ "tag": "cr_labdg",
+ "threads": 20,
+ "timing": {
+  "hier_s": 5.442488999999999,
+  "graph0_s": 0.09083441901020706,
+  "init_assign_s": 0.0003712089965119958,
+  "setup_s": 0.12080159899778664
+ },
+ "diag": {
+  "agree_exact": 0.7551502374633147,
+  "hier_labels_agree_exact": 0.7551502374633147,
+  "final_voronoi_agree": 0.7551255423183802
+ },
+ "hist": [
+  {
+   "epoch": 0,
+   "total_s": 5.654496227004505,
+   "empty": 0,
+   "init_moved": 0,
+   "init_hops": null,
+   "labels_md5": "564dc45068f21476a606d8822af9f730"
+  }
+ ]
+}

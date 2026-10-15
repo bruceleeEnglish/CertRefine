@@ -1,0 +1,87 @@
+config,hier=0,hartigan=1,candk=64,candr=5,sampling=1,maxppc=1073741824,early=0,iters=25,init=0,nq=0
+Front dimensions (d') = 32
+Trailing dimensions (d'') = 64
+Sampling data...
+Using 1000000 vectors
+Iteration 1/25 | Objective: 6.56815e+10 | Objective improvement: 0 | Shift: 7.8534e+07 | Split: 0 | Recall: 0 [BLAS-only]
+
+Iteration 2/25 [CAND K=64] | Objective: 4.80136e+10 | Recall: 0 | Moves: 340638 | graph refreshed
+
+Iteration 3/25 [CAND K=64] | Objective: 4.68529e+10 | Recall: 0 | Moves: 191523
+
+Iteration 4/25 [CAND K=64] | Objective: 4.63215e+10 | Recall: 0 | Moves: 126057
+
+Iteration 5/25 [CAND K=64] | Objective: 4.60231e+10 | Recall: 0 | Moves: 90012
+
+Iteration 6/25 [CAND K=64] | Objective: 4.58378e+10 | Recall: 0 | Moves: 68219
+
+Iteration 7/25 [CAND K=64] | Objective: 4.55664e+10 | Recall: 0 | Moves: 86930 | graph refreshed
+
+Iteration 8/25 [CAND K=64] | Objective: 4.54141e+10 | Recall: 0 | Moves: 57790
+
+Iteration 9/25 [CAND K=64] | Objective: 4.53169e+10 | Recall: 0 | Moves: 45963
+
+Iteration 10/25 [CAND K=64] | Objective: 4.52466e+10 | Recall: 0 | Moves: 37970
+
+Iteration 11/25 [CAND K=64] | Objective: 4.51913e+10 | Recall: 0 | Moves: 32323
+
+Iteration 12/25 [CAND K=64] | Objective: 4.51135e+10 | Recall: 0 | Moves: 35767 | graph refreshed
+
+Iteration 13/25 [CAND K=64] | Objective: 4.50658e+10 | Recall: 0 | Moves: 27764
+
+Iteration 14/25 [CAND K=64] | Objective: 4.50312e+10 | Recall: 0 | Moves: 23756
+
+Iteration 15/25 [CAND K=64] | Objective: 4.50024e+10 | Recall: 0 | Moves: 20436
+
+Iteration 16/25 [CAND K=64] | Objective: 4.49787e+10 | Recall: 0 | Moves: 18198
+
+Iteration 17/25 [CAND K=64] | Objective: 4.49453e+10 | Recall: 0 | Moves: 19580 | graph refreshed
+
+Iteration 18/25 [CAND K=64] | Objective: 4.49235e+10 | Recall: 0 | Moves: 16222
+
+Iteration 19/25 [CAND K=64] | Objective: 4.49058e+10 | Recall: 0 | Moves: 14167
+
+Iteration 20/25 [CAND K=64] | Objective: 4.48916e+10 | Recall: 0 | Moves: 12813
+
+Iteration 21/25 [CAND K=64] | Objective: 4.48783e+10 | Recall: 0 | Moves: 11665
+
+Iteration 22/25 [CAND K=64] | Objective: 4.48594e+10 | Recall: 0 | Moves: 12672 | graph refreshed
+
+Iteration 23/25 [CAND K=64] | Objective: 4.48469e+10 | Recall: 0 | Moves: 10752
+
+Iteration 24/25 [CAND K=64] | Objective: 4.48359e+10 | Recall: 0 | Moves: 9481
+
+Iteration 25/25 [CAND K=64] | Objective: 4.48265e+10 | Recall: 0 | Moves: 8687
+
+
+========== PROFILER RESULTS ==========
+-------------------------------------------
+TOTAL                                        0.000s
+===========================================
+iter,objective,shift,split,recall,not_pruned_pct,partial_d,gemm_only,moves
+1,65681522688.000,78534000.000,0,0.000,-1.000,0,1,0
+2,48013582336.000,3464886.000,0,0.000,-1.000,128,0,340638
+3,46852882432.000,1455446.750,0,0.000,-1.000,128,0,191523
+4,46321467392.000,797688.250,0,0.000,-1.000,128,0,126057
+5,46023110656.000,492976.500,0,0.000,-1.000,128,0,90012
+6,45837832192.000,332858.594,0,0.000,-1.000,128,0,68219
+7,45566406656.000,438421.344,0,0.000,-1.000,128,0,86930
+8,45414084608.000,265589.562,0,0.000,-1.000,128,0,57790
+9,45316902912.000,190364.141,0,0.000,-1.000,128,0,45963
+10,45246566400.000,145321.938,0,0.000,-1.000,128,0,37970
+11,45191344128.000,115651.148,0,0.000,-1.000,128,0,32323
+12,45113532416.000,133042.031,0,0.000,-1.000,128,0,35767
+13,45065764864.000,96242.812,0,0.000,-1.000,128,0,27764
+14,45031165952.000,78500.281,0,0.000,-1.000,128,0,23756
+15,45002399744.000,63879.434,0,0.000,-1.000,128,0,20436
+16,44978708480.000,56118.824,0,0.000,-1.000,128,0,18198
+17,44945268736.000,61395.207,0,0.000,-1.000,128,0,19580
+18,44923531264.000,47634.875,0,0.000,-1.000,128,0,16222
+19,44905807872.000,39727.883,0,0.000,-1.000,128,0,14167
+20,44891590656.000,34534.887,0,0.000,-1.000,128,0,12813
+21,44878286848.000,30166.340,0,0.000,-1.000,128,0,11665
+22,44859379712.000,34850.605,0,0.000,-1.000,128,0,12672
+23,44846899200.000,28330.525,0,0.000,-1.000,128,0,10752
+24,44835917824.000,24098.160,0,0.000,-1.000,128,0,9481
+25,44826472448.000,20855.418,0,0.000,-1.000,128,0,8687
+train_ms,4384.334

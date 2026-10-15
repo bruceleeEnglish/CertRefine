@@ -1,0 +1,39 @@
+{
+ "ds": "wiki",
+ "n": 260372,
+ "d": 3072,
+ "c": 2041,
+ "K": 64,
+ "T": 4096,
+ "rule": "hartigan",
+ "update": "seq",
+ "cert": true,
+ "init": "labels",
+ "final": "none",
+ "ann_nprobe": 8,
+ "refresh": 0,
+ "seed": 2,
+ "tag": "cr_labdg",
+ "threads": 20,
+ "timing": {
+  "hier_s": 7.189203,
+  "graph0_s": 0.08956601994577795,
+  "init_assign_s": 0.00014539191033691168,
+  "setup_s": 0.11812871904112399
+ },
+ "diag": {
+  "agree_exact": 0.8088734579755119,
+  "hier_labels_agree_exact": 0.8088734579755119,
+  "final_voronoi_agree": 0.8088657766580124
+ },
+ "hist": [
+  {
+   "epoch": 0,
+   "total_s": 7.397043130897239,
+   "empty": 0,
+   "init_moved": 0,
+   "init_hops": null,
+   "labels_md5": "3af4473d5b470b807e06534857b05137"
+  }
+ ]
+}

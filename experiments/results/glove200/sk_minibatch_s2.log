@@ -1,0 +1,4 @@
+config,sklearn MiniBatchKMeans init=random max_iter=25 batch=4096 c=4352 seed=2
+n_iter,4
+n_steps,1120
+train_ms,39060.0

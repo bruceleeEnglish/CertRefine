@@ -1,0 +1,87 @@
+config,hier=0,hartigan=1,candk=64,candr=5,sampling=1,maxppc=1073741824,early=0,iters=25,init=0,nq=0
+Front dimensions (d') = 32
+Trailing dimensions (d'') = 64
+Sampling data...
+Using 1000000 vectors
+Iteration 1/25 | Objective: 6.55188e+10 | Objective improvement: 0 | Shift: 7.79258e+07 | Split: 0 | Recall: 0 [BLAS-only]
+
+Iteration 2/25 [CAND K=64] | Objective: 4.79894e+10 | Recall: 0 | Moves: 336645 | graph refreshed
+
+Iteration 3/25 [CAND K=64] | Objective: 4.68461e+10 | Recall: 0 | Moves: 189083
+
+Iteration 4/25 [CAND K=64] | Objective: 4.63226e+10 | Recall: 0 | Moves: 125281
+
+Iteration 5/25 [CAND K=64] | Objective: 4.60298e+10 | Recall: 0 | Moves: 89808
+
+Iteration 6/25 [CAND K=64] | Objective: 4.58467e+10 | Recall: 0 | Moves: 68129
+
+Iteration 7/25 [CAND K=64] | Objective: 4.55875e+10 | Recall: 0 | Moves: 84930 | graph refreshed
+
+Iteration 8/25 [CAND K=64] | Objective: 4.54389e+10 | Recall: 0 | Moves: 57267
+
+Iteration 9/25 [CAND K=64] | Objective: 4.53442e+10 | Recall: 0 | Moves: 45569
+
+Iteration 10/25 [CAND K=64] | Objective: 4.52731e+10 | Recall: 0 | Moves: 37782
+
+Iteration 11/25 [CAND K=64] | Objective: 4.52188e+10 | Recall: 0 | Moves: 31987
+
+Iteration 12/25 [CAND K=64] | Objective: 4.51429e+10 | Recall: 0 | Moves: 35476 | graph refreshed
+
+Iteration 13/25 [CAND K=64] | Objective: 4.50957e+10 | Recall: 0 | Moves: 27502
+
+Iteration 14/25 [CAND K=64] | Objective: 4.50614e+10 | Recall: 0 | Moves: 23307
+
+Iteration 15/25 [CAND K=64] | Objective: 4.50323e+10 | Recall: 0 | Moves: 20529
+
+Iteration 16/25 [CAND K=64] | Objective: 4.50078e+10 | Recall: 0 | Moves: 18327
+
+Iteration 17/25 [CAND K=64] | Objective: 4.49749e+10 | Recall: 0 | Moves: 19960 | graph refreshed
+
+Iteration 18/25 [CAND K=64] | Objective: 4.49512e+10 | Recall: 0 | Moves: 16708
+
+Iteration 19/25 [CAND K=64] | Objective: 4.49331e+10 | Recall: 0 | Moves: 14742
+
+Iteration 20/25 [CAND K=64] | Objective: 4.49158e+10 | Recall: 0 | Moves: 13486
+
+Iteration 21/25 [CAND K=64] | Objective: 4.4902e+10 | Recall: 0 | Moves: 12445
+
+Iteration 22/25 [CAND K=64] | Objective: 4.48824e+10 | Recall: 0 | Moves: 13293 | graph refreshed
+
+Iteration 23/25 [CAND K=64] | Objective: 4.48692e+10 | Recall: 0 | Moves: 11512
+
+Iteration 24/25 [CAND K=64] | Objective: 4.48576e+10 | Recall: 0 | Moves: 10406
+
+Iteration 25/25 [CAND K=64] | Objective: 4.48475e+10 | Recall: 0 | Moves: 9559
+
+
+========== PROFILER RESULTS ==========
+-------------------------------------------
+TOTAL                                        0.000s
+===========================================
+iter,objective,shift,split,recall,not_pruned_pct,partial_d,gemm_only,moves
+1,65518772224.000,77925832.000,0,0.000,-1.000,0,1,0
+2,47989379072.000,3368304.500,0,0.000,-1.000,128,0,336645
+3,46846078976.000,1406960.500,0,0.000,-1.000,128,0,189083
+4,46322601984.000,765059.438,0,0.000,-1.000,128,0,125281
+5,46029819904.000,474971.531,0,0.000,-1.000,128,0,89808
+6,45846745088.000,320340.938,0,0.000,-1.000,128,0,68129
+7,45587509248.000,427599.062,0,0.000,-1.000,128,0,84930
+8,45438939136.000,261078.656,0,0.000,-1.000,128,0,57267
+9,45344235520.000,191234.844,0,0.000,-1.000,128,0,45569
+10,45273075712.000,146944.766,0,0.000,-1.000,128,0,37782
+11,45218783232.000,116135.914,0,0.000,-1.000,128,0,31987
+12,45142933504.000,137207.406,0,0.000,-1.000,128,0,35476
+13,45095694336.000,97527.266,0,0.000,-1.000,128,0,27502
+14,45061353472.000,77094.953,0,0.000,-1.000,128,0,23307
+15,45032337408.000,64481.180,0,0.000,-1.000,128,0,20529
+16,45007847424.000,55090.734,0,0.000,-1.000,128,0,18327
+17,44974911488.000,65090.297,0,0.000,-1.000,128,0,19960
+18,44951187456.000,50140.836,0,0.000,-1.000,128,0,16708
+19,44933128192.000,42947.156,0,0.000,-1.000,128,0,14742
+20,44915752960.000,38026.859,0,0.000,-1.000,128,0,13486
+21,44902023168.000,33679.707,0,0.000,-1.000,128,0,12445
+22,44882440192.000,36991.891,0,0.000,-1.000,128,0,13293
+23,44869214208.000,30067.174,0,0.000,-1.000,128,0,11512
+24,44857622528.000,26824.078,0,0.000,-1.000,128,0,10406
+25,44847525888.000,23432.918,0,0.000,-1.000,128,0,9559
+train_ms,4333.551

@@ -1,0 +1,2 @@
+config,faiss_kmeans niter=25 full data omp=20
+train_ms,35679.3

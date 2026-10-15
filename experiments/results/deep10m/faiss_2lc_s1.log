@@ -1,0 +1,2 @@
+config,faiss two_level_clustering nc1=112 nc2=12649 rebalance=1 clustering_niter=25 kmeans_defaults seed=1 omp=20
+train_ms,18778.9

@@ -1,0 +1,4 @@
+__pycache__/
+*.pyc
+checks/make_assets_last_run.log
+SuperCDKM/build/

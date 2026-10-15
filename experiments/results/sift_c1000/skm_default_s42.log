@@ -1,0 +1,44 @@
+config,hier=0,hartigan=0,candk=0,candr=5,sampling=0.3,maxppc=256,early=1,iters=10,init=0,nq=1000
+Front dimensions (d') = 32
+Trailing dimensions (d'') = 64
+Sampling data...
+Sampling 256000 vectors
+Using 256000 vectors
+Centroids to explore: 10 (1% of 1000)
+Sampling queries from data...
+Sampling 1000 vectors
+Iteration 1/10 | Objective: 1.96528e+10 | Objective improvement: 0 | Shift: 2.46542e+07 | Split: 0 | Recall: 0.67785 [BLAS-only]
+
+Iteration 2/10 | Objective: 1.38411e+10 | Objective improvement: 0.295716 | Shift: 1.28106e+06 | Split: 0 | Recall: 0.72234 | Not Pruned %: 7.91102 | d': 32 -> 44
+
+Iteration 3/10 | Objective: 1.34322e+10 | Objective improvement: 0.0295452 | Shift: 462686 | Split: 0 | Recall: 0.73537 | Not Pruned %: 3.78791 | d': 44 -> 44
+
+Iteration 4/10 | Objective: 1.32679e+10 | Objective improvement: 0.012229 | Shift: 246895 | Split: 0 | Recall: 0.74032 | Not Pruned %: 3.48067 | d': 44 -> 44
+
+Iteration 5/10 | Objective: 1.31789e+10 | Objective improvement: 0.00670904 | Shift: 159437 | Split: 0 | Recall: 0.74527 | Not Pruned %: 3.32949 | d': 44 -> 44
+
+Iteration 6/10 | Objective: 1.31212e+10 | Objective improvement: 0.00437838 | Shift: 112396 | Split: 0 | Recall: 0.748791 | Not Pruned %: 3.23271 | d': 44 -> 44
+
+Iteration 7/10 | Objective: 1.30806e+10 | Objective improvement: 0.00309402 | Shift: 84474.2 | Split: 0 | Recall: 0.752571 | Not Pruned %: 3.16681 | d': 44 -> 44
+
+Iteration 8/10 | Objective: 1.30499e+10 | Objective improvement: 0.00234443 | Shift: 64871.4 | Split: 0 | Recall: 0.75376 | Not Pruned %: 3.11902 | d': 44 -> 44
+
+Iteration 9/10 | Objective: 1.30265e+10 | Objective improvement: 0.00179732 | Shift: 49789.5 | Split: 0 | Recall: 0.75632 | Not Pruned %: 3.08369 | d': 44 -> 44
+
+Converged at iteration 9 (recall 0.75632 hasn't improved by more than 0.005 in 2 iterations, best: 0.752571)
+
+========== PROFILER RESULTS ==========
+-------------------------------------------
+TOTAL                                        0.000s
+===========================================
+iter,objective,shift,split,recall,not_pruned_pct,partial_d,gemm_only,moves
+1,19652771840.000,24654240.000,0,0.678,-1.000,0,1,0
+2,13841123328.000,1281062.750,0,0.722,0.079,32,0,0
+3,13432184832.000,462685.688,0,0.735,0.038,44,0,0
+4,13267922944.000,246894.859,0,0.740,0.035,44,0,0
+5,13178907648.000,159437.453,0,0.745,0.033,44,0,0
+6,13121205248.000,112396.047,0,0.749,0.032,44,0,0
+7,13080607744.000,84474.211,0,0.753,0.032,44,0,0
+8,13049940992.000,64871.418,0,0.754,0.031,44,0,0
+9,13026486272.000,49789.535,0,0.756,0.031,44,0,0
+train_ms,1215.090

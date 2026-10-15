@@ -1,0 +1,36 @@
+config,hier=0,hartigan=0,candk=0,candr=5,sampling=0.3,maxppc=256,early=1,iters=10,init=0,nq=1000
+Front dimensions (d') = 384
+Trailing dimensions (d'') = 2304
+Sampling data...
+Sampling 78111 vectors
+Using 78111 vectors
+Centroids to explore: 20 (1% of 2041)
+Iteration 1/10 | Objective: 88946.8 | Objective improvement: 0 | Shift: 986.021 | Split: 0 | Recall: 0.7049 [BLAS-only]
+
+Iteration 2/10 | Objective: 50825.9 | Objective improvement: 0.428581 | Shift: 41.4331 | Split: 0 | Recall: 0.76852 | Not Pruned %: 1.19972 | d': 384 -> 308
+
+Iteration 3/10 | Objective: 49169.2 | Objective improvement: 0.032595 | Shift: 16.2458 | Split: 0 | Recall: 0.77862 | Not Pruned %: 0.561902 | d': 308 -> 247
+
+Iteration 4/10 | Objective: 48598.1 | Objective improvement: 0.0116165 | Shift: 8.27424 | Split: 0 | Recall: 0.78347 | Not Pruned %: 0.640106 | d': 247 -> 198
+
+Iteration 5/10 | Objective: 48310.6 | Objective improvement: 0.00591528 | Shift: 4.56632 | Split: 0 | Recall: 0.78644 | Not Pruned %: 0.858248 | d': 198 -> 159
+
+Iteration 6/10 | Objective: 48148.4 | Objective improvement: 0.00335652 | Shift: 3.19385 | Split: 0 | Recall: 0.78781 | Not Pruned %: 1.28433 | d': 159 -> 128
+
+Iteration 7/10 | Objective: 48043.9 | Objective improvement: 0.00217104 | Shift: 1.91583 | Split: 0 | Recall: 0.78965 | Not Pruned %: 2.11511 | d': 128 -> 103
+
+Converged at iteration 7 (recall 0.78965 hasn't improved by more than 0.005 in 2 iterations, best: 0.78644)
+
+========== PROFILER RESULTS ==========
+-------------------------------------------
+TOTAL                                        0.000s
+===========================================
+iter,objective,shift,split,recall,not_pruned_pct,partial_d,gemm_only,moves
+1,88946.781,986.021,0,0.705,-1.000,0,1,0
+2,50825.914,41.433,0,0.769,0.012,384,0,0
+3,49169.242,16.246,0,0.779,0.006,308,0,0
+4,48598.070,8.274,0,0.783,0.006,247,0,0
+5,48310.598,4.566,0,0.786,0.009,198,0,0
+6,48148.441,3.194,0,0.788,0.013,159,0,0
+7,48043.910,1.916,0,0.790,0.021,128,0,0
+train_ms,4925.985

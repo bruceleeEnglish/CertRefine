@@ -1,0 +1,39 @@
+{
+ "ds": "dbpedia",
+ "n": 229772,
+ "d": 1536,
+ "c": 1917,
+ "K": 64,
+ "T": 4096,
+ "rule": "hartigan",
+ "update": "seq",
+ "cert": true,
+ "init": "labels",
+ "final": "none",
+ "ann_nprobe": 8,
+ "refresh": 0,
+ "seed": 1,
+ "tag": "cr_labdg",
+ "threads": 20,
+ "timing": {
+  "hier_s": 2.090419,
+  "graph0_s": 0.051557522965595126,
+  "init_assign_s": 5.915702786296606e-05,
+  "setup_s": 0.06080785999074578
+ },
+ "diag": {
+  "agree_exact": 0.8030656476855318,
+  "hier_labels_agree_exact": 0.8030656476855318,
+  "final_voronoi_agree": 0.8029655484567311
+ },
+ "hist": [
+  {
+   "epoch": 0,
+   "total_s": 2.2028435399842037,
+   "empty": 0,
+   "init_moved": 0,
+   "init_hops": null,
+   "labels_md5": "f06259c04a4cf95e271919903688c95e"
+  }
+ ]
+}

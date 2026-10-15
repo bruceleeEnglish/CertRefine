@@ -1,0 +1,3 @@
+config,sklearn elkan random init 25 iters
+train_ms,101552.5
+iters_run=25

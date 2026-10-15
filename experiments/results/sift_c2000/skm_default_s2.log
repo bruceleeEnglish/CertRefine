@@ -1,0 +1,41 @@
+config,hier=0,hartigan=0,candk=0,candr=5,sampling=0.3,maxppc=256,early=1,iters=10,init=0,nq=1000
+Front dimensions (d') = 32
+Trailing dimensions (d'') = 64
+Sampling data...
+Sampling 300000 vectors
+Using 300000 vectors
+Centroids to explore: 20 (1% of 2000)
+Sampling queries from data...
+Sampling 1000 vectors
+Iteration 1/10 | Objective: 2.13897e+10 | Objective improvement: 0 | Shift: 4.58674e+07 | Split: 0 | Recall: 0.74899 [BLAS-only]
+
+Iteration 2/10 | Objective: 1.51946e+10 | Objective improvement: 0.289631 | Shift: 2.69932e+06 | Split: 0 | Recall: 0.779999 | Not Pruned %: 5.36734 | d': 32 -> 44
+
+Iteration 3/10 | Objective: 1.47348e+10 | Objective improvement: 0.0302637 | Shift: 1.01203e+06 | Split: 0 | Recall: 0.79108 | Not Pruned %: 2.47784 | d': 44 -> 36
+
+Iteration 4/10 | Objective: 1.45474e+10 | Objective improvement: 0.0127138 | Shift: 549902 | Split: 0 | Recall: 0.79647 | Not Pruned %: 3.57347 | d': 36 -> 36
+
+Iteration 5/10 | Objective: 1.44428e+10 | Objective improvement: 0.00719154 | Shift: 350696 | Split: 0 | Recall: 0.801019 | Not Pruned %: 3.4287 | d': 36 -> 36
+
+Iteration 6/10 | Objective: 1.43755e+10 | Objective improvement: 0.00466049 | Shift: 250059 | Split: 0 | Recall: 0.80256 | Not Pruned %: 3.3389 | d': 36 -> 36
+
+Iteration 7/10 | Objective: 1.4328e+10 | Objective improvement: 0.00330114 | Shift: 180087 | Split: 0 | Recall: 0.8038 | Not Pruned %: 3.27704 | d': 36 -> 36
+
+Iteration 8/10 | Objective: 1.42942e+10 | Objective improvement: 0.00236523 | Shift: 141436 | Split: 0 | Recall: 0.80584 | Not Pruned %: 3.23305 | d': 36 -> 36
+
+Converged at iteration 8 (recall 0.80584 hasn't improved by more than 0.005 in 2 iterations, best: 0.80256)
+
+========== PROFILER RESULTS ==========
+-------------------------------------------
+TOTAL                                        0.000s
+===========================================
+iter,objective,shift,split,recall,not_pruned_pct,partial_d,gemm_only,moves
+1,21389742080.000,45867364.000,0,0.749,-1.000,0,1,0
+2,15194602496.000,2699319.500,0,0.780,0.054,32,0,0
+3,14734757888.000,1012027.000,0,0.791,0.025,44,0,0
+4,14547423232.000,549901.688,0,0.796,0.036,36,0,0
+5,14442805248.000,350696.250,0,0.801,0.034,36,0,0
+6,14375494656.000,250059.062,0,0.803,0.033,36,0,0
+7,14328039424.000,180087.391,0,0.804,0.033,36,0,0
+8,14294150144.000,141436.219,0,0.806,0.032,36,0,0
+train_ms,1925.405

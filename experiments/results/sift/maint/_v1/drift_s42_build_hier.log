@@ -1,0 +1,901 @@
+config,hier=1,hartigan=0,candk=0,candr=5,sampling=1,maxppc=1073741824,early=0,iters=10,init=0,nq=0
+Front dimensions (d') = 32
+Trailing dimensions (d'') = 64
+
+=== PHASE 1: MESOCLUSTERING (k=58 clusters) ===
+Sampling data...
+Using 700000 vectors
+Iteration 1/10 | Objective: 8.21415e+10 | Objective improvement: 0 | Shift: 2.41761e+06 | Split: 2 | Recall: 0 [BLAS-only]
+
+Iteration 2/10 | Objective: 5.26e+10 | Objective improvement: 0.359642 | Shift: 79806.9 | Split: 0 | Recall: 0 [BLAS-only]
+
+Iteration 3/10 | Objective: 5.12103e+10 | Objective improvement: 0.0264197 | Shift: 30777.2 | Split: 0 | Recall: 0 [BLAS-only]
+
+
+=== PHASE 2: FINE-CLUSTERING (subdividing 58 mesoclusters into total 3347 clusters) ===
+Iteration 1/10 | Objective: 4.75186e+08 | Objective improvement: 0 | Shift: 861875 | Split: 10 | Recall: 0 [BLAS-only]
+
+Iteration 2/10 | Objective: 3.22624e+08 | Objective improvement: 0.321057 | Shift: 62100.7 | Split: 4 | Recall: 0 [BLAS-only]
+
+Iteration 3/10 | Objective: 3.09871e+08 | Objective improvement: 0.0395303 | Shift: 21031.1 | Split: 1 | Recall: 0 [BLAS-only]
+
+Iteration 4/10 | Objective: 3.04653e+08 | Objective improvement: 0.0168397 | Shift: 10338 | Split: 0 | Recall: 0 [BLAS-only]
+
+Iteration 5/10 | Objective: 3.01843e+08 | Objective improvement: 0.00922346 | Shift: 6777.11 | Split: 0 | Recall: 0 [BLAS-only]
+
+Iteration 1/10 | Objective: 9.00032e+08 | Objective improvement: 0 | Shift: 1.52638e+06 | Split: 4 | Recall: 0 [BLAS-only]
+
+Iteration 2/10 | Objective: 5.85528e+08 | Objective improvement: 0.349437 | Shift: 58854.8 | Split: 2 | Recall: 0 [BLAS-only]
+
+Iteration 3/10 | Objective: 5.7293e+08 | Objective improvement: 0.0215148 | Shift: 18497.3 | Split: 1 | Recall: 0 [BLAS-only]
+
+Iteration 4/10 | Objective: 5.68244e+08 | Objective improvement: 0.00817937 | Shift: 8831.88 | Split: 0 | Recall: 0 [BLAS-only]
+
+Iteration 5/10 | Objective: 5.65607e+08 | Objective improvement: 0.00464082 | Shift: 5772.66 | Split: 0 | Recall: 0 [BLAS-only]
+
+Iteration 1/10 | Objective: 9.15469e+08 | Objective improvement: 0 | Shift: 1.53173e+06 | Split: 6 | Recall: 0 [BLAS-only]
+
+Iteration 2/10 | Objective: 5.99701e+08 | Objective improvement: 0.344924 | Shift: 64184.3 | Split: 0 | Recall: 0 [BLAS-only]
+
+Iteration 3/10 | Objective: 5.81757e+08 | Objective improvement: 0.0299215 | Shift: 24534.5 | Split: 0 | Recall: 0 [BLAS-only]
+
+Iteration 4/10 | Objective: 5.74477e+08 | Objective improvement: 0.0125145 | Shift: 12788.6 | Split: 0 | Recall: 0 [BLAS-only]
+
+Iteration 5/10 | Objective: 5.70774e+08 | Objective improvement: 0.00644571 | Shift: 6832.29 | Split: 0 | Recall: 0 [BLAS-only]
+
+Iteration 1/10 | Objective: 1.16663e+09 | Objective improvement: 0 | Shift: 1.93105e+06 | Split: 11 | Recall: 0 [BLAS-only]
+
+Iteration 2/10 | Objective: 7.92574e+08 | Objective improvement: 0.320632 | Shift: 85441.7 | Split: 0 | Recall: 0 [BLAS-only]
+
+Iteration 3/10 | Objective: 7.69007e+08 | Objective improvement: 0.0297348 | Shift: 30358.4 | Split: 0 | Recall: 0 [BLAS-only]
+
+Iteration 4/10 | Objective: 7.59616e+08 | Objective improvement: 0.0122113 | Shift: 14814.7 | Split: 0 | Recall: 0 [BLAS-only]
+
+Iteration 5/10 | Objective: 7.54952e+08 | Objective improvement: 0.00614077 | Shift: 8861.49 | Split: 0 | Recall: 0 [BLAS-only]
+
+Iteration 1/10 | Objective: 5.82689e+08 | Objective improvement: 0 | Shift: 988830 | Split: 2 | Recall: 0 [BLAS-only]
+
+Iteration 2/10 | Objective: 3.92277e+08 | Objective improvement: 0.326782 | Shift: 38387.7 | Split: 0 | Recall: 0 [BLAS-only]
+
+Iteration 3/10 | Objective: 3.81737e+08 | Objective improvement: 0.026867 | Shift: 15554.6 | Split: 0 | Recall: 0 [BLAS-only]
+
+Iteration 4/10 | Objective: 3.76772e+08 | Objective improvement: 0.0130079 | Shift: 9669.51 | Split: 0 | Recall: 0 [BLAS-only]
+
+Iteration 5/10 | Objective: 3.73708e+08 | Objective improvement: 0.00813037 | Shift: 5878.24 | Split: 0 | Recall: 0 [BLAS-only]
+
+Iteration 1/10 | Objective: 1.52548e+09 | Objective improvement: 0 | Shift: 2.40539e+06 | Split: 6 | Recall: 0 [BLAS-only]
+
+Iteration 2/10 | Objective: 1.02531e+09 | Objective improvement: 0.327879 | Shift: 92310.3 | Split: 1 | Recall: 0 [BLAS-only]
+
+Iteration 3/10 | Objective: 9.99026e+08 | Objective improvement: 0.0256344 | Shift: 36616.4 | Split: 0 | Recall: 0 [BLAS-only]
+
+Iteration 4/10 | Objective: 9.87844e+08 | Objective improvement: 0.0111926 | Shift: 19104.7 | Split: 0 | Recall: 0 [BLAS-only]
+
+Iteration 5/10 | Objective: 9.81869e+08 | Objective improvement: 0.00604922 | Shift: 11346.3 | Split: 0 | Recall: 0 [BLAS-only]
+
+Iteration 1/10 | Objective: 1.0935e+09 | Objective improvement: 0 | Shift: 1.78548e+06 | Split: 15 | Recall: 0 [BLAS-only]
+
+Iteration 2/10 | Objective: 7.63173e+08 | Objective improvement: 0.302079 | Shift: 99707.6 | Split: 1 | Recall: 0 [BLAS-only]
+
+Iteration 3/10 | Objective: 7.379e+08 | Objective improvement: 0.0331166 | Shift: 38978.4 | Split: 0 | Recall: 0 [BLAS-only]
+
+Iteration 4/10 | Objective: 7.27016e+08 | Objective improvement: 0.0147498 | Shift: 17266.7 | Split: 0 | Recall: 0 [BLAS-only]
+
+Iteration 5/10 | Objective: 7.21798e+08 | Objective improvement: 0.00717759 | Shift: 10371.5 | Split: 0 | Recall: 0 [BLAS-only]
+
+Iteration 1/10 | Objective: 8.6083e+08 | Objective improvement: 0 | Shift: 1.50185e+06 | Split: 4 | Recall: 0 [BLAS-only]
+
+Iteration 2/10 | Objective: 5.51345e+08 | Objective improvement: 0.35952 | Shift: 44854.9 | Split: 0 | Recall: 0 [BLAS-only]
+
+Iteration 3/10 | Objective: 5.39058e+08 | Objective improvement: 0.0222843 | Shift: 14229 | Split: 0 | Recall: 0 [BLAS-only]
+
+Iteration 4/10 | Objective: 5.34675e+08 | Objective improvement: 0.00813115 | Shift: 7301.68 | Split: 0 | Recall: 0 [BLAS-only]
+
+Iteration 5/10 | Objective: 5.32377e+08 | Objective improvement: 0.00429833 | Shift: 4691.71 | Split: 0 | Recall: 0 [BLAS-only]
+
+Iteration 1/10 | Objective: 6.97417e+08 | Objective improvement: 0 | Shift: 1.12185e+06 | Split: 9 | Recall: 0 [BLAS-only]
+
+Iteration 2/10 | Objective: 4.80386e+08 | Objective improvement: 0.311193 | Shift: 54631.7 | Split: 0 | Recall: 0 [BLAS-only]
+
+Iteration 3/10 | Objective: 4.64963e+08 | Objective improvement: 0.0321054 | Shift: 19825.2 | Split: 0 | Recall: 0 [BLAS-only]
+
+Iteration 4/10 | Objective: 4.58884e+08 | Objective improvement: 0.0130732 | Shift: 10595.1 | Split: 0 | Recall: 0 [BLAS-only]
+
+Iteration 5/10 | Objective: 4.55463e+08 | Objective improvement: 0.00745678 | Shift: 7043.64 | Split: 0 | Recall: 0 [BLAS-only]
+
+Iteration 1/10 | Objective: 8.81113e+08 | Objective improvement: 0 | Shift: 1.44834e+06 | Split: 8 | Recall: 0 [BLAS-only]
+
+Iteration 2/10 | Objective: 5.92633e+08 | Objective improvement: 0.327404 | Shift: 54124.1 | Split: 0 | Recall: 0 [BLAS-only]
+
+Iteration 3/10 | Objective: 5.77859e+08 | Objective improvement: 0.02493 | Shift: 20299.9 | Split: 0 | Recall: 0 [BLAS-only]
+
+Iteration 4/10 | Objective: 5.72013e+08 | Objective improvement: 0.0101156 | Shift: 10706.7 | Split: 0 | Recall: 0 [BLAS-only]
+
+Iteration 5/10 | Objective: 5.68894e+08 | Objective improvement: 0.00545329 | Shift: 7064.18 | Split: 0 | Recall: 0 [BLAS-only]
+
+Iteration 1/10 | Objective: 1.05497e+09 | Objective improvement: 0 | Shift: 1.73591e+06 | Split: 6 | Recall: 0 [BLAS-only]
+
+Iteration 2/10 | Objective: 6.94847e+08 | Objective improvement: 0.341358 | Shift: 63079.9 | Split: 1 | Recall: 0 [BLAS-only]
+
+Iteration 3/10 | Objective: 6.76886e+08 | Objective improvement: 0.0258495 | Shift: 24179.9 | Split: 1 | Recall: 0 [BLAS-only]
+
+Iteration 4/10 | Objective: 6.69827e+08 | Objective improvement: 0.010428 | Shift: 13176.3 | Split: 0 | Recall: 0 [BLAS-only]
+
+Iteration 5/10 | Objective: 6.65715e+08 | Objective improvement: 0.0061391 | Shift: 8211.5 | Split: 0 | Recall: 0 [BLAS-only]
+
+Iteration 1/10 | Objective: 9.12461e+08 | Objective improvement: 0 | Shift: 1.48602e+06 | Split: 7 | Recall: 0 [BLAS-only]
+
+Iteration 2/10 | Objective: 6.11774e+08 | Objective improvement: 0.329534 | Shift: 59383.8 | Split: 1 | Recall: 0 [BLAS-only]
+
+Iteration 3/10 | Objective: 5.96201e+08 | Objective improvement: 0.0254559 | Shift: 22130.4 | Split: 0 | Recall: 0 [BLAS-only]
+
+Iteration 4/10 | Objective: 5.89834e+08 | Objective improvement: 0.0106795 | Shift: 12364 | Split: 0 | Recall: 0 [BLAS-only]
+
+Iteration 5/10 | Objective: 5.86218e+08 | Objective improvement: 0.00612932 | Shift: 7180.94 | Split: 0 | Recall: 0 [BLAS-only]
+
+Iteration 1/10 | Objective: 9.25876e+08 | Objective improvement: 0 | Shift: 1.4989e+06 | Split: 9 | Recall: 0 [BLAS-only]
+
+Iteration 2/10 | Objective: 6.27508e+08 | Objective improvement: 0.322255 | Shift: 75334.8 | Split: 2 | Recall: 0 [BLAS-only]
+
+Iteration 3/10 | Objective: 6.0808e+08 | Objective improvement: 0.0309593 | Shift: 26906.3 | Split: 1 | Recall: 0 [BLAS-only]
+
+Iteration 4/10 | Objective: 6.00003e+08 | Objective improvement: 0.0132841 | Shift: 15816.4 | Split: 0 | Recall: 0 [BLAS-only]
+
+Iteration 5/10 | Objective: 5.95237e+08 | Objective improvement: 0.00794345 | Shift: 11075.4 | Split: 0 | Recall: 0 [BLAS-only]
+
+Iteration 1/10 | Objective: 6.95666e+08 | Objective improvement: 0 | Shift: 1.17791e+06 | Split: 7 | Recall: 0 [BLAS-only]
+
+Iteration 2/10 | Objective: 4.68381e+08 | Objective improvement: 0.326715 | Shift: 51913.8 | Split: 1 | Recall: 0 [BLAS-only]
+
+Iteration 3/10 | Objective: 4.54323e+08 | Objective improvement: 0.0300151 | Shift: 17508.4 | Split: 0 | Recall: 0 [BLAS-only]
+
+Iteration 4/10 | Objective: 4.4905e+08 | Objective improvement: 0.0116069 | Shift: 8239.16 | Split: 0 | Recall: 0 [BLAS-only]
+
+Iteration 5/10 | Objective: 4.46425e+08 | Objective improvement: 0.00584602 | Shift: 5095.66 | Split: 0 | Recall: 0 [BLAS-only]
+
+Iteration 1/10 | Objective: 1.08987e+09 | Objective improvement: 0 | Shift: 1.81326e+06 | Split: 4 | Recall: 0 [BLAS-only]
+
+Iteration 2/10 | Objective: 7.06921e+08 | Objective improvement: 0.351372 | Shift: 59868.7 | Split: 0 | Recall: 0 [BLAS-only]
+
+Iteration 3/10 | Objective: 6.89207e+08 | Objective improvement: 0.0250577 | Shift: 22635.8 | Split: 0 | Recall: 0 [BLAS-only]
+
+Iteration 4/10 | Objective: 6.8216e+08 | Objective improvement: 0.0102255 | Shift: 10757.2 | Split: 0 | Recall: 0 [BLAS-only]
+
+Iteration 5/10 | Objective: 6.78854e+08 | Objective improvement: 0.00484502 | Shift: 5924.33 | Split: 0 | Recall: 0 [BLAS-only]
+
+Iteration 1/10 | Objective: 6.50509e+08 | Objective improvement: 0 | Shift: 1.10293e+06 | Split: 2 | Recall: 0 [BLAS-only]
+
+Iteration 2/10 | Objective: 4.29706e+08 | Objective improvement: 0.339432 | Shift: 42485.3 | Split: 1 | Recall: 0 [BLAS-only]
+
+Iteration 3/10 | Objective: 4.19234e+08 | Objective improvement: 0.0243698 | Shift: 13785 | Split: 0 | Recall: 0 [BLAS-only]
+
+Iteration 4/10 | Objective: 4.15299e+08 | Objective improvement: 0.00938511 | Shift: 6915.98 | Split: 0 | Recall: 0 [BLAS-only]
+
+Iteration 5/10 | Objective: 4.13147e+08 | Objective improvement: 0.00518245 | Shift: 5366.83 | Split: 0 | Recall: 0 [BLAS-only]
+
+Iteration 1/10 | Objective: 7.72975e+08 | Objective improvement: 0 | Shift: 1.19286e+06 | Split: 11 | Recall: 0 [BLAS-only]
+
+Iteration 2/10 | Objective: 5.44266e+08 | Objective improvement: 0.295881 | Shift: 63020.3 | Split: 1 | Recall: 0 [BLAS-only]
+
+Iteration 3/10 | Objective: 5.27236e+08 | Objective improvement: 0.0312898 | Shift: 22879.6 | Split: 1 | Recall: 0 [BLAS-only]
+
+Iteration 4/10 | Objective: 5.20718e+08 | Objective improvement: 0.0123631 | Shift: 11443.6 | Split: 0 | Recall: 0 [BLAS-only]
+
+Iteration 5/10 | Objective: 5.17432e+08 | Objective improvement: 0.00631112 | Shift: 6755.06 | Split: 0 | Recall: 0 [BLAS-only]
+
+Iteration 1/10 | Objective: 1.26112e+09 | Objective improvement: 0 | Shift: 1.9725e+06 | Split: 5 | Recall: 0 [BLAS-only]
+
+Iteration 2/10 | Objective: 8.55803e+08 | Objective improvement: 0.321393 | Shift: 68129.4 | Split: 0 | Recall: 0 [BLAS-only]
+
+Iteration 3/10 | Objective: 8.3621e+08 | Objective improvement: 0.0228944 | Shift: 27990.2 | Split: 0 | Recall: 0 [BLAS-only]
+
+Iteration 4/10 | Objective: 8.27441e+08 | Objective improvement: 0.0104873 | Shift: 16078.5 | Split: 0 | Recall: 0 [BLAS-only]
+
+Iteration 5/10 | Objective: 8.22456e+08 | Objective improvement: 0.00602472 | Shift: 9576.59 | Split: 0 | Recall: 0 [BLAS-only]
+
+Iteration 1/10 | Objective: 1.50846e+09 | Objective improvement: 0 | Shift: 2.33875e+06 | Split: 10 | Recall: 0 [BLAS-only]
+
+Iteration 2/10 | Objective: 1.05206e+09 | Objective improvement: 0.302557 | Shift: 139086 | Split: 1 | Recall: 0 [BLAS-only]
+
+Iteration 3/10 | Objective: 1.01586e+09 | Objective improvement: 0.0344152 | Shift: 51376 | Split: 0 | Recall: 0 [BLAS-only]
+
+Iteration 4/10 | Objective: 1.00124e+09 | Objective improvement: 0.0143844 | Shift: 25678.7 | Split: 0 | Recall: 0 [BLAS-only]
+
+Iteration 5/10 | Objective: 9.93618e+08 | Objective improvement: 0.00761706 | Shift: 15105.9 | Split: 0 | Recall: 0 [BLAS-only]
+
+Iteration 1/10 | Objective: 9.55373e+08 | Objective improvement: 0 | Shift: 1.59693e+06 | Split: 5 | Recall: 0 [BLAS-only]
+
+Iteration 2/10 | Objective: 6.32671e+08 | Objective improvement: 0.337776 | Shift: 65463.2 | Split: 0 | Recall: 0 [BLAS-only]
+
+Iteration 3/10 | Objective: 6.14333e+08 | Objective improvement: 0.0289844 | Shift: 21987.5 | Split: 0 | Recall: 0 [BLAS-only]
+
+Iteration 4/10 | Objective: 6.0755e+08 | Objective improvement: 0.0110412 | Shift: 11042.5 | Split: 0 | Recall: 0 [BLAS-only]
+
+Iteration 5/10 | Objective: 6.04322e+08 | Objective improvement: 0.00531286 | Shift: 5591.61 | Split: 0 | Recall: 0 [BLAS-only]
+
+Iteration 1/10 | Objective: 9.24432e+08 | Objective improvement: 0 | Shift: 1.58401e+06 | Split: 10 | Recall: 0 [BLAS-only]
+
+Iteration 2/10 | Objective: 6.15423e+08 | Objective improvement: 0.334268 | Shift: 77759.8 | Split: 1 | Recall: 0 [BLAS-only]
+
+Iteration 3/10 | Objective: 5.94436e+08 | Objective improvement: 0.0341024 | Shift: 26852.6 | Split: 0 | Recall: 0 [BLAS-only]
+
+Iteration 4/10 | Objective: 5.86126e+08 | Objective improvement: 0.0139793 | Shift: 14869.1 | Split: 0 | Recall: 0 [BLAS-only]
+
+Iteration 5/10 | Objective: 5.81629e+08 | Objective improvement: 0.00767332 | Shift: 8967.21 | Split: 0 | Recall: 0 [BLAS-only]
+
+Iteration 1/10 | Objective: 9.54368e+08 | Objective improvement: 0 | Shift: 1.50334e+06 | Split: 7 | Recall: 0 [BLAS-only]
+
+Iteration 2/10 | Objective: 6.52624e+08 | Objective improvement: 0.316172 | Shift: 74997.7 | Split: 2 | Recall: 0 [BLAS-only]
+
+Iteration 3/10 | Objective: 6.33312e+08 | Objective improvement: 0.0295901 | Shift: 30388.9 | Split: 0 | Recall: 0 [BLAS-only]
+
+Iteration 4/10 | Objective: 6.25196e+08 | Objective improvement: 0.0128161 | Shift: 13639.1 | Split: 0 | Recall: 0 [BLAS-only]
+
+Iteration 5/10 | Objective: 6.21096e+08 | Objective improvement: 0.00655812 | Shift: 8803.6 | Split: 0 | Recall: 0 [BLAS-only]
+
+Iteration 1/10 | Objective: 5.78348e+08 | Objective improvement: 0 | Shift: 939844 | Split: 4 | Recall: 0 [BLAS-only]
+
+Iteration 2/10 | Objective: 3.93329e+08 | Objective improvement: 0.31991 | Shift: 31191.2 | Split: 0 | Recall: 0 [BLAS-only]
+
+Iteration 3/10 | Objective: 3.85182e+08 | Objective improvement: 0.020713 | Shift: 10729.9 | Split: 0 | Recall: 0 [BLAS-only]
+
+Iteration 4/10 | Objective: 3.82064e+08 | Objective improvement: 0.00809324 | Shift: 7332.95 | Split: 0 | Recall: 0 [BLAS-only]
+
+Iteration 5/10 | Objective: 3.79946e+08 | Objective improvement: 0.00554538 | Shift: 4962.26 | Split: 0 | Recall: 0 [BLAS-only]
+
+Iteration 1/10 | Objective: 6.14947e+08 | Objective improvement: 0 | Shift: 1.02656e+06 | Split: 5 | Recall: 0 [BLAS-only]
+
+Iteration 2/10 | Objective: 4.1791e+08 | Objective improvement: 0.320414 | Shift: 41374.3 | Split: 0 | Recall: 0 [BLAS-only]
+
+Iteration 3/10 | Objective: 4.07195e+08 | Objective improvement: 0.0256388 | Shift: 15249.9 | Split: 0 | Recall: 0 [BLAS-only]
+
+Iteration 4/10 | Objective: 4.02869e+08 | Objective improvement: 0.0106224 | Shift: 7810.7 | Split: 0 | Recall: 0 [BLAS-only]
+
+Iteration 5/10 | Objective: 4.00409e+08 | Objective improvement: 0.0061084 | Shift: 5200.38 | Split: 0 | Recall: 0 [BLAS-only]
+
+Iteration 1/10 | Objective: 1.05082e+09 | Objective improvement: 0 | Shift: 1.66529e+06 | Split: 19 | Recall: 0 [BLAS-only]
+
+Iteration 2/10 | Objective: 7.43259e+08 | Objective improvement: 0.292685 | Shift: 98559.3 | Split: 4 | Recall: 0 [BLAS-only]
+
+Iteration 3/10 | Objective: 7.19207e+08 | Objective improvement: 0.0323598 | Shift: 34618 | Split: 2 | Recall: 0 [BLAS-only]
+
+Iteration 4/10 | Objective: 7.09624e+08 | Objective improvement: 0.0133248 | Shift: 16809.8 | Split: 1 | Recall: 0 [BLAS-only]
+
+Iteration 5/10 | Objective: 7.04662e+08 | Objective improvement: 0.00699145 | Shift: 9589.02 | Split: 0 | Recall: 0 [BLAS-only]
+
+Iteration 1/10 | Objective: 1.43314e+09 | Objective improvement: 0 | Shift: 2.40738e+06 | Split: 13 | Recall: 0 [BLAS-only]
+
+Iteration 2/10 | Objective: 9.57363e+08 | Objective improvement: 0.33198 | Shift: 93844 | Split: 1 | Recall: 0 [BLAS-only]
+
+Iteration 3/10 | Objective: 9.34627e+08 | Objective improvement: 0.0237491 | Shift: 32739.4 | Split: 1 | Recall: 0 [BLAS-only]
+
+Iteration 4/10 | Objective: 9.25885e+08 | Objective improvement: 0.00935268 | Shift: 17230.9 | Split: 0 | Recall: 0 [BLAS-only]
+
+Iteration 5/10 | Objective: 9.20864e+08 | Objective improvement: 0.00542355 | Shift: 10779.6 | Split: 0 | Recall: 0 [BLAS-only]
+
+Iteration 1/10 | Objective: 1.19681e+09 | Objective improvement: 0 | Shift: 2.06146e+06 | Split: 10 | Recall: 0 [BLAS-only]
+
+Iteration 2/10 | Objective: 7.90709e+08 | Objective improvement: 0.339321 | Shift: 70135.2 | Split: 0 | Recall: 0 [BLAS-only]
+
+Iteration 3/10 | Objective: 7.71993e+08 | Objective improvement: 0.0236703 | Shift: 25915.3 | Split: 0 | Recall: 0 [BLAS-only]
+
+Iteration 4/10 | Objective: 7.64582e+08 | Objective improvement: 0.00959879 | Shift: 12878.2 | Split: 0 | Recall: 0 [BLAS-only]
+
+Iteration 5/10 | Objective: 7.60748e+08 | Objective improvement: 0.00501508 | Shift: 8013.29 | Split: 0 | Recall: 0 [BLAS-only]
+
+Iteration 1/10 | Objective: 1.08625e+09 | Objective improvement: 0 | Shift: 1.82671e+06 | Split: 9 | Recall: 0 [BLAS-only]
+
+Iteration 2/10 | Objective: 7.22946e+08 | Objective improvement: 0.334457 | Shift: 66963.8 | Split: 1 | Recall: 0 [BLAS-only]
+
+Iteration 3/10 | Objective: 7.05208e+08 | Objective improvement: 0.0245367 | Shift: 24138 | Split: 0 | Recall: 0 [BLAS-only]
+
+Iteration 4/10 | Objective: 6.98369e+08 | Objective improvement: 0.00969702 | Shift: 12988.5 | Split: 0 | Recall: 0 [BLAS-only]
+
+Iteration 5/10 | Objective: 6.94815e+08 | Objective improvement: 0.00509024 | Shift: 7560.56 | Split: 0 | Recall: 0 [BLAS-only]
+
+Iteration 1/10 | Objective: 8.54762e+08 | Objective improvement: 0 | Shift: 1.44562e+06 | Split: 4 | Recall: 0 [BLAS-only]
+
+Iteration 2/10 | Objective: 5.50149e+08 | Objective improvement: 0.356371 | Shift: 64848.3 | Split: 0 | Recall: 0 [BLAS-only]
+
+Iteration 3/10 | Objective: 5.31992e+08 | Objective improvement: 0.0330045 | Shift: 22531.2 | Split: 0 | Recall: 0 [BLAS-only]
+
+Iteration 4/10 | Objective: 5.252e+08 | Objective improvement: 0.0127662 | Shift: 10955.7 | Split: 0 | Recall: 0 [BLAS-only]
+
+Iteration 5/10 | Objective: 5.21667e+08 | Objective improvement: 0.00672692 | Shift: 6790.37 | Split: 0 | Recall: 0 [BLAS-only]
+
+Iteration 1/10 | Objective: 1.14756e+09 | Objective improvement: 0 | Shift: 1.96589e+06 | Split: 12 | Recall: 0 [BLAS-only]
+
+Iteration 2/10 | Objective: 7.74975e+08 | Objective improvement: 0.324674 | Shift: 93525.2 | Split: 1 | Recall: 0 [BLAS-only]
+
+Iteration 3/10 | Objective: 7.51556e+08 | Objective improvement: 0.0302187 | Shift: 27842.9 | Split: 0 | Recall: 0 [BLAS-only]
+
+Iteration 4/10 | Objective: 7.43742e+08 | Objective improvement: 0.0103977 | Shift: 13764 | Split: 0 | Recall: 0 [BLAS-only]
+
+Iteration 5/10 | Objective: 7.39829e+08 | Objective improvement: 0.00526047 | Shift: 9036.06 | Split: 0 | Recall: 0 [BLAS-only]
+
+Iteration 1/10 | Objective: 9.01946e+08 | Objective improvement: 0 | Shift: 1.48521e+06 | Split: 3 | Recall: 0 [BLAS-only]
+
+Iteration 2/10 | Objective: 5.88979e+08 | Objective improvement: 0.346991 | Shift: 47832.9 | Split: 0 | Recall: 0 [BLAS-only]
+
+Iteration 3/10 | Objective: 5.75715e+08 | Objective improvement: 0.0225204 | Shift: 15944 | Split: 0 | Recall: 0 [BLAS-only]
+
+Iteration 4/10 | Objective: 5.7088e+08 | Objective improvement: 0.00839835 | Shift: 8724.26 | Split: 0 | Recall: 0 [BLAS-only]
+
+Iteration 5/10 | Objective: 5.68182e+08 | Objective improvement: 0.00472623 | Shift: 5804.69 | Split: 0 | Recall: 0 [BLAS-only]
+
+Iteration 1/10 | Objective: 7.82378e+08 | Objective improvement: 0 | Shift: 1.32463e+06 | Split: 4 | Recall: 0 [BLAS-only]
+
+Iteration 2/10 | Objective: 5.23464e+08 | Objective improvement: 0.330932 | Shift: 59208.8 | Split: 1 | Recall: 0 [BLAS-only]
+
+Iteration 3/10 | Objective: 5.07075e+08 | Objective improvement: 0.0313081 | Shift: 24005.5 | Split: 1 | Recall: 0 [BLAS-only]
+
+Iteration 4/10 | Objective: 5.00053e+08 | Objective improvement: 0.0138493 | Shift: 14931.6 | Split: 0 | Recall: 0 [BLAS-only]
+
+Iteration 5/10 | Objective: 4.95537e+08 | Objective improvement: 0.00902915 | Shift: 9331.68 | Split: 0 | Recall: 0 [BLAS-only]
+
+Iteration 1/10 | Objective: 5.21254e+08 | Objective improvement: 0 | Shift: 865441 | Split: 2 | Recall: 0 [BLAS-only]
+
+Iteration 2/10 | Objective: 3.42361e+08 | Objective improvement: 0.343199 | Shift: 28822.8 | Split: 0 | Recall: 0 [BLAS-only]
+
+Iteration 3/10 | Objective: 3.34044e+08 | Objective improvement: 0.0242915 | Shift: 9750.27 | Split: 0 | Recall: 0 [BLAS-only]
+
+Iteration 4/10 | Objective: 3.31162e+08 | Objective improvement: 0.00862706 | Shift: 4546.69 | Split: 0 | Recall: 0 [BLAS-only]
+
+Iteration 5/10 | Objective: 3.29794e+08 | Objective improvement: 0.00413227 | Shift: 2661.11 | Split: 0 | Recall: 0 [BLAS-only]
+
+Iteration 1/10 | Objective: 8.27703e+08 | Objective improvement: 0 | Shift: 1.39691e+06 | Split: 14 | Recall: 0 [BLAS-only]
+
+Iteration 2/10 | Objective: 5.73054e+08 | Objective improvement: 0.307658 | Shift: 67784.8 | Split: 1 | Recall: 0 [BLAS-only]
+
+Iteration 3/10 | Objective: 5.56921e+08 | Objective improvement: 0.0281523 | Shift: 24784.8 | Split: 0 | Recall: 0 [BLAS-only]
+
+Iteration 4/10 | Objective: 5.49971e+08 | Objective improvement: 0.0124791 | Shift: 13160.5 | Split: 0 | Recall: 0 [BLAS-only]
+
+Iteration 5/10 | Objective: 5.46146e+08 | Objective improvement: 0.00695497 | Shift: 9092.53 | Split: 0 | Recall: 0 [BLAS-only]
+
+Iteration 1/10 | Objective: 3.8641e+08 | Objective improvement: 0 | Shift: 624870 | Split: 6 | Recall: 0 [BLAS-only]
+
+Iteration 2/10 | Objective: 2.75264e+08 | Objective improvement: 0.287639 | Shift: 38716 | Split: 0 | Recall: 0 [BLAS-only]
+
+Iteration 3/10 | Objective: 2.66019e+08 | Objective improvement: 0.033584 | Shift: 13006.3 | Split: 0 | Recall: 0 [BLAS-only]
+
+Iteration 4/10 | Objective: 2.62587e+08 | Objective improvement: 0.0129011 | Shift: 6677.63 | Split: 0 | Recall: 0 [BLAS-only]
+
+Iteration 5/10 | Objective: 2.60798e+08 | Objective improvement: 0.00681263 | Shift: 4198.04 | Split: 0 | Recall: 0 [BLAS-only]
+
+Iteration 1/10 | Objective: 1.00416e+09 | Objective improvement: 0 | Shift: 1.71837e+06 | Split: 7 | Recall: 0 [BLAS-only]
+
+Iteration 2/10 | Objective: 6.65752e+08 | Objective improvement: 0.337004 | Shift: 76247.4 | Split: 0 | Recall: 0 [BLAS-only]
+
+Iteration 3/10 | Objective: 6.45295e+08 | Objective improvement: 0.030728 | Shift: 26677.7 | Split: 0 | Recall: 0 [BLAS-only]
+
+Iteration 4/10 | Objective: 6.37384e+08 | Objective improvement: 0.0122603 | Shift: 12001.5 | Split: 0 | Recall: 0 [BLAS-only]
+
+Iteration 5/10 | Objective: 6.33634e+08 | Objective improvement: 0.00588357 | Shift: 7461.86 | Split: 0 | Recall: 0 [BLAS-only]
+
+Iteration 1/10 | Objective: 7.65492e+08 | Objective improvement: 0 | Shift: 1.32547e+06 | Split: 3 | Recall: 0 [BLAS-only]
+
+Iteration 2/10 | Objective: 4.92484e+08 | Objective improvement: 0.356644 | Shift: 36590.1 | Split: 1 | Recall: 0 [BLAS-only]
+
+Iteration 3/10 | Objective: 4.82762e+08 | Objective improvement: 0.0197415 | Shift: 12812.7 | Split: 0 | Recall: 0 [BLAS-only]
+
+Iteration 4/10 | Objective: 4.78867e+08 | Objective improvement: 0.00806701 | Shift: 7490.18 | Split: 0 | Recall: 0 [BLAS-only]
+
+Iteration 5/10 | Objective: 4.76417e+08 | Objective improvement: 0.00511712 | Shift: 5236.39 | Split: 0 | Recall: 0 [BLAS-only]
+
+Iteration 1/10 | Objective: 1.10839e+09 | Objective improvement: 0 | Shift: 1.84562e+06 | Split: 9 | Recall: 0 [BLAS-only]
+
+Iteration 2/10 | Objective: 7.30722e+08 | Objective improvement: 0.340737 | Shift: 61770 | Split: 0 | Recall: 0 [BLAS-only]
+
+Iteration 3/10 | Objective: 7.13132e+08 | Objective improvement: 0.0240729 | Shift: 23306.4 | Split: 0 | Recall: 0 [BLAS-only]
+
+Iteration 4/10 | Objective: 7.06046e+08 | Objective improvement: 0.00993621 | Shift: 11776.7 | Split: 0 | Recall: 0 [BLAS-only]
+
+Iteration 5/10 | Objective: 7.02388e+08 | Objective improvement: 0.00518042 | Shift: 7425.69 | Split: 0 | Recall: 0 [BLAS-only]
+
+Iteration 1/10 | Objective: 7.20326e+08 | Objective improvement: 0 | Shift: 1.20804e+06 | Split: 8 | Recall: 0 [BLAS-only]
+
+Iteration 2/10 | Objective: 4.92718e+08 | Objective improvement: 0.315979 | Shift: 79078.1 | Split: 2 | Recall: 0 [BLAS-only]
+
+Iteration 3/10 | Objective: 4.71366e+08 | Objective improvement: 0.0433345 | Shift: 22806.8 | Split: 0 | Recall: 0 [BLAS-only]
+
+Iteration 4/10 | Objective: 4.65142e+08 | Objective improvement: 0.0132058 | Shift: 8987.14 | Split: 0 | Recall: 0 [BLAS-only]
+
+Iteration 5/10 | Objective: 4.62504e+08 | Objective improvement: 0.00567138 | Shift: 5726.93 | Split: 0 | Recall: 0 [BLAS-only]
+
+Iteration 1/10 | Objective: 1.22007e+09 | Objective improvement: 0 | Shift: 2.077e+06 | Split: 9 | Recall: 0 [BLAS-only]
+
+Iteration 2/10 | Objective: 7.94566e+08 | Objective improvement: 0.348753 | Shift: 67813.1 | Split: 1 | Recall: 0 [BLAS-only]
+
+Iteration 3/10 | Objective: 7.76537e+08 | Objective improvement: 0.0226913 | Shift: 23905.1 | Split: 0 | Recall: 0 [BLAS-only]
+
+Iteration 4/10 | Objective: 7.69524e+08 | Objective improvement: 0.0090304 | Shift: 14213 | Split: 0 | Recall: 0 [BLAS-only]
+
+Iteration 5/10 | Objective: 7.65324e+08 | Objective improvement: 0.00545818 | Shift: 8679.91 | Split: 0 | Recall: 0 [BLAS-only]
+
+Iteration 1/10 | Objective: 7.49308e+08 | Objective improvement: 0 | Shift: 1.23201e+06 | Split: 3 | Recall: 0 [BLAS-only]
+
+Iteration 2/10 | Objective: 5.00035e+08 | Objective improvement: 0.332671 | Shift: 46886.2 | Split: 0 | Recall: 0 [BLAS-only]
+
+Iteration 3/10 | Objective: 4.87158e+08 | Objective improvement: 0.025753 | Shift: 19096.6 | Split: 0 | Recall: 0 [BLAS-only]
+
+Iteration 4/10 | Objective: 4.81593e+08 | Objective improvement: 0.0114225 | Shift: 10086.1 | Split: 0 | Recall: 0 [BLAS-only]
+
+Iteration 5/10 | Objective: 4.78686e+08 | Objective improvement: 0.00603724 | Shift: 5468.68 | Split: 0 | Recall: 0 [BLAS-only]
+
+Iteration 1/10 | Objective: 1.26713e+09 | Objective improvement: 0 | Shift: 2.10015e+06 | Split: 10 | Recall: 0 [BLAS-only]
+
+Iteration 2/10 | Objective: 8.45242e+08 | Objective improvement: 0.332949 | Shift: 75111 | Split: 0 | Recall: 0 [BLAS-only]
+
+Iteration 3/10 | Objective: 8.24969e+08 | Objective improvement: 0.0239844 | Shift: 24974.3 | Split: 0 | Recall: 0 [BLAS-only]
+
+Iteration 4/10 | Objective: 8.17774e+08 | Objective improvement: 0.00872165 | Shift: 12136.5 | Split: 0 | Recall: 0 [BLAS-only]
+
+Iteration 5/10 | Objective: 8.14211e+08 | Objective improvement: 0.00435632 | Shift: 7965.12 | Split: 0 | Recall: 0 [BLAS-only]
+
+Iteration 1/10 | Objective: 9.33207e+08 | Objective improvement: 0 | Shift: 1.62549e+06 | Split: 17 | Recall: 0 [BLAS-only]
+
+Iteration 2/10 | Objective: 6.40216e+08 | Objective improvement: 0.313961 | Shift: 84764.2 | Split: 4 | Recall: 0 [BLAS-only]
+
+Iteration 3/10 | Objective: 6.20033e+08 | Objective improvement: 0.0315256 | Shift: 30308.6 | Split: 1 | Recall: 0 [BLAS-only]
+
+Iteration 4/10 | Objective: 6.12125e+08 | Objective improvement: 0.0127533 | Shift: 13470 | Split: 0 | Recall: 0 [BLAS-only]
+
+Iteration 5/10 | Objective: 6.0842e+08 | Objective improvement: 0.00605285 | Shift: 7827.96 | Split: 0 | Recall: 0 [BLAS-only]
+
+Iteration 1/10 | Objective: 1.26397e+09 | Objective improvement: 0 | Shift: 2.14851e+06 | Split: 15 | Recall: 0 [BLAS-only]
+
+Iteration 2/10 | Objective: 8.53202e+08 | Objective improvement: 0.324985 | Shift: 83323.2 | Split: 2 | Recall: 0 [BLAS-only]
+
+Iteration 3/10 | Objective: 8.32251e+08 | Objective improvement: 0.0245567 | Shift: 28371.2 | Split: 1 | Recall: 0 [BLAS-only]
+
+Iteration 4/10 | Objective: 8.24412e+08 | Objective improvement: 0.00941861 | Shift: 14179.4 | Split: 0 | Recall: 0 [BLAS-only]
+
+Iteration 5/10 | Objective: 8.20224e+08 | Objective improvement: 0.00507993 | Shift: 8882.86 | Split: 0 | Recall: 0 [BLAS-only]
+
+Iteration 1/10 | Objective: 1.27537e+09 | Objective improvement: 0 | Shift: 2.08364e+06 | Split: 6 | Recall: 0 [BLAS-only]
+
+Iteration 2/10 | Objective: 8.43395e+08 | Objective improvement: 0.338703 | Shift: 74894.6 | Split: 0 | Recall: 0 [BLAS-only]
+
+Iteration 3/10 | Objective: 8.21048e+08 | Objective improvement: 0.0264966 | Shift: 27592.3 | Split: 0 | Recall: 0 [BLAS-only]
+
+Iteration 4/10 | Objective: 8.12199e+08 | Objective improvement: 0.0107787 | Shift: 15097.5 | Split: 0 | Recall: 0 [BLAS-only]
+
+Iteration 5/10 | Objective: 8.0726e+08 | Objective improvement: 0.00608087 | Shift: 9661.74 | Split: 0 | Recall: 0 [BLAS-only]
+
+Iteration 1/10 | Objective: 6.38041e+08 | Objective improvement: 0 | Shift: 1.09474e+06 | Split: 14 | Recall: 0 [BLAS-only]
+
+Iteration 2/10 | Objective: 4.40144e+08 | Objective improvement: 0.310164 | Shift: 54222.2 | Split: 2 | Recall: 0 [BLAS-only]
+
+Iteration 3/10 | Objective: 4.25827e+08 | Objective improvement: 0.032527 | Shift: 20218.4 | Split: 0 | Recall: 0 [BLAS-only]
+
+Iteration 4/10 | Objective: 4.19569e+08 | Objective improvement: 0.0146969 | Shift: 11088.5 | Split: 0 | Recall: 0 [BLAS-only]
+
+Iteration 5/10 | Objective: 4.16089e+08 | Objective improvement: 0.00829369 | Shift: 6752.5 | Split: 0 | Recall: 0 [BLAS-only]
+
+Iteration 1/10 | Objective: 6.95888e+08 | Objective improvement: 0 | Shift: 1.11786e+06 | Split: 20 | Recall: 0 [BLAS-only]
+
+Iteration 2/10 | Objective: 5.16315e+08 | Objective improvement: 0.258048 | Shift: 84739 | Split: 5 | Recall: 0 [BLAS-only]
+
+Iteration 3/10 | Objective: 4.9878e+08 | Objective improvement: 0.0339625 | Shift: 32141.7 | Split: 1 | Recall: 0 [BLAS-only]
+
+Iteration 4/10 | Objective: 4.91254e+08 | Objective improvement: 0.0150899 | Shift: 19978.9 | Split: 1 | Recall: 0 [BLAS-only]
+
+Iteration 5/10 | Objective: 4.86435e+08 | Objective improvement: 0.00980818 | Shift: 12989.9 | Split: 0 | Recall: 0 [BLAS-only]
+
+Iteration 1/10 | Objective: 7.63743e+08 | Objective improvement: 0 | Shift: 1.3155e+06 | Split: 4 | Recall: 0 [BLAS-only]
+
+Iteration 2/10 | Objective: 5.01923e+08 | Objective improvement: 0.342811 | Shift: 49268.5 | Split: 1 | Recall: 0 [BLAS-only]
+
+Iteration 3/10 | Objective: 4.89274e+08 | Objective improvement: 0.0252007 | Shift: 18673.9 | Split: 1 | Recall: 0 [BLAS-only]
+
+Iteration 4/10 | Objective: 4.84144e+08 | Objective improvement: 0.0104854 | Shift: 9692.33 | Split: 0 | Recall: 0 [BLAS-only]
+
+Iteration 5/10 | Objective: 4.81336e+08 | Objective improvement: 0.00580031 | Shift: 6614.7 | Split: 0 | Recall: 0 [BLAS-only]
+
+Iteration 1/10 | Objective: 1.43102e+09 | Objective improvement: 0 | Shift: 2.29106e+06 | Split: 33 | Recall: 0 [BLAS-only]
+
+Iteration 2/10 | Objective: 1.03456e+09 | Objective improvement: 0.277047 | Shift: 118341 | Split: 3 | Recall: 0 [BLAS-only]
+
+Iteration 3/10 | Objective: 1.00668e+09 | Objective improvement: 0.0269455 | Shift: 44129.2 | Split: 1 | Recall: 0 [BLAS-only]
+
+Iteration 4/10 | Objective: 9.95408e+08 | Objective improvement: 0.011202 | Shift: 20817.9 | Split: 1 | Recall: 0 [BLAS-only]
+
+Iteration 5/10 | Objective: 9.89724e+08 | Objective improvement: 0.00570977 | Shift: 12553.7 | Split: 1 | Recall: 0 [BLAS-only]
+
+Iteration 1/10 | Objective: 1.03564e+09 | Objective improvement: 0 | Shift: 1.66949e+06 | Split: 8 | Recall: 0 [BLAS-only]
+
+Iteration 2/10 | Objective: 7.10017e+08 | Objective improvement: 0.31442 | Shift: 71433 | Split: 1 | Recall: 0 [BLAS-only]
+
+Iteration 3/10 | Objective: 6.90082e+08 | Objective improvement: 0.0280759 | Shift: 35919.1 | Split: 1 | Recall: 0 [BLAS-only]
+
+Iteration 4/10 | Objective: 6.81836e+08 | Objective improvement: 0.0119498 | Shift: 26366.3 | Split: 1 | Recall: 0 [BLAS-only]
+
+Iteration 5/10 | Objective: 6.7684e+08 | Objective improvement: 0.00732744 | Shift: 13603.5 | Split: 1 | Recall: 0 [BLAS-only]
+
+Iteration 1/10 | Objective: 1.08229e+09 | Objective improvement: 0 | Shift: 1.81993e+06 | Split: 12 | Recall: 0 [BLAS-only]
+
+Iteration 2/10 | Objective: 7.22602e+08 | Objective improvement: 0.332338 | Shift: 67150.9 | Split: 0 | Recall: 0 [BLAS-only]
+
+Iteration 3/10 | Objective: 7.04287e+08 | Objective improvement: 0.025346 | Shift: 22778.7 | Split: 0 | Recall: 0 [BLAS-only]
+
+Iteration 4/10 | Objective: 6.97497e+08 | Objective improvement: 0.00964105 | Shift: 11532 | Split: 0 | Recall: 0 [BLAS-only]
+
+Iteration 5/10 | Objective: 6.94065e+08 | Objective improvement: 0.00492072 | Shift: 6657.49 | Split: 0 | Recall: 0 [BLAS-only]
+
+Iteration 1/10 | Objective: 1.16469e+09 | Objective improvement: 0 | Shift: 1.91391e+06 | Split: 7 | Recall: 0 [BLAS-only]
+
+Iteration 2/10 | Objective: 7.71688e+08 | Objective improvement: 0.33743 | Shift: 67132.5 | Split: 1 | Recall: 0 [BLAS-only]
+
+Iteration 3/10 | Objective: 7.54843e+08 | Objective improvement: 0.0218294 | Shift: 23601.7 | Split: 1 | Recall: 0 [BLAS-only]
+
+Iteration 4/10 | Objective: 7.48249e+08 | Objective improvement: 0.0087347 | Shift: 12591.1 | Split: 0 | Recall: 0 [BLAS-only]
+
+Iteration 5/10 | Objective: 7.4443e+08 | Objective improvement: 0.00510401 | Shift: 7933.87 | Split: 0 | Recall: 0 [BLAS-only]
+
+Iteration 1/10 | Objective: 9.53695e+08 | Objective improvement: 0 | Shift: 1.44087e+06 | Split: 15 | Recall: 0 [BLAS-only]
+
+Iteration 2/10 | Objective: 6.89084e+08 | Objective improvement: 0.277459 | Shift: 77721.3 | Split: 0 | Recall: 0 [BLAS-only]
+
+Iteration 3/10 | Objective: 6.69425e+08 | Objective improvement: 0.0285293 | Shift: 30921.6 | Split: 1 | Recall: 0 [BLAS-only]
+
+Iteration 4/10 | Objective: 6.61645e+08 | Objective improvement: 0.0116219 | Shift: 16778.7 | Split: 0 | Recall: 0 [BLAS-only]
+
+Iteration 5/10 | Objective: 6.57369e+08 | Objective improvement: 0.00646311 | Shift: 9741.53 | Split: 0 | Recall: 0 [BLAS-only]
+
+Iteration 1/10 | Objective: 6.70205e+08 | Objective improvement: 0 | Shift: 1.21147e+06 | Split: 6 | Recall: 0 [BLAS-only]
+
+Iteration 2/10 | Objective: 4.28337e+08 | Objective improvement: 0.360886 | Shift: 56381 | Split: 2 | Recall: 0 [BLAS-only]
+
+Iteration 3/10 | Objective: 4.14953e+08 | Objective improvement: 0.0312468 | Shift: 18296.7 | Split: 0 | Recall: 0 [BLAS-only]
+
+Iteration 4/10 | Objective: 4.10338e+08 | Objective improvement: 0.0111215 | Shift: 9031.71 | Split: 0 | Recall: 0 [BLAS-only]
+
+Iteration 5/10 | Objective: 4.07868e+08 | Objective improvement: 0.00601852 | Shift: 5436.73 | Split: 0 | Recall: 0 [BLAS-only]
+
+Iteration 1/10 | Objective: 1.03874e+09 | Objective improvement: 0 | Shift: 1.76941e+06 | Split: 12 | Recall: 0 [BLAS-only]
+
+Iteration 2/10 | Objective: 7.07475e+08 | Objective improvement: 0.318911 | Shift: 79046.5 | Split: 1 | Recall: 0 [BLAS-only]
+
+Iteration 3/10 | Objective: 6.88896e+08 | Objective improvement: 0.0262612 | Shift: 24543.1 | Split: 0 | Recall: 0 [BLAS-only]
+
+Iteration 4/10 | Objective: 6.82069e+08 | Objective improvement: 0.00991023 | Shift: 13979.9 | Split: 0 | Recall: 0 [BLAS-only]
+
+Iteration 5/10 | Objective: 6.78138e+08 | Objective improvement: 0.00576347 | Shift: 8151.83 | Split: 0 | Recall: 0 [BLAS-only]
+
+Iteration 1/10 | Objective: 7.39054e+08 | Objective improvement: 0 | Shift: 1.3242e+06 | Split: 4 | Recall: 0 [BLAS-only]
+
+Iteration 2/10 | Objective: 4.72135e+08 | Objective improvement: 0.361162 | Shift: 59281.5 | Split: 2 | Recall: 0 [BLAS-only]
+
+Iteration 3/10 | Objective: 4.57736e+08 | Objective improvement: 0.0304989 | Shift: 23165.7 | Split: 0 | Recall: 0 [BLAS-only]
+
+Iteration 4/10 | Objective: 4.5131e+08 | Objective improvement: 0.0140381 | Shift: 13175.1 | Split: 0 | Recall: 0 [BLAS-only]
+
+Iteration 5/10 | Objective: 4.47526e+08 | Objective improvement: 0.00838524 | Shift: 7888.36 | Split: 0 | Recall: 0 [BLAS-only]
+
+Iteration 1/10 | Objective: 1.24275e+09 | Objective improvement: 0 | Shift: 1.94081e+06 | Split: 8 | Recall: 0 [BLAS-only]
+
+Iteration 2/10 | Objective: 8.46174e+08 | Objective improvement: 0.319109 | Shift: 76500.4 | Split: 0 | Recall: 0 [BLAS-only]
+
+Iteration 3/10 | Objective: 8.24998e+08 | Objective improvement: 0.0250261 | Shift: 31276.4 | Split: 0 | Recall: 0 [BLAS-only]
+
+Iteration 4/10 | Objective: 8.15727e+08 | Objective improvement: 0.0112377 | Shift: 16409 | Split: 0 | Recall: 0 [BLAS-only]
+
+Iteration 5/10 | Objective: 8.10683e+08 | Objective improvement: 0.00618339 | Shift: 10126.9 | Split: 0 | Recall: 0 [BLAS-only]
+
+Iteration 1/10 | Objective: 8.78977e+08 | Objective improvement: 0 | Shift: 1.49754e+06 | Split: 6 | Recall: 0 [BLAS-only]
+
+Iteration 2/10 | Objective: 5.89604e+08 | Objective improvement: 0.329215 | Shift: 71332.3 | Split: 2 | Recall: 0 [BLAS-only]
+
+Iteration 3/10 | Objective: 5.73028e+08 | Objective improvement: 0.0281142 | Shift: 23864.2 | Split: 2 | Recall: 0 [BLAS-only]
+
+Iteration 4/10 | Objective: 5.67071e+08 | Objective improvement: 0.0103967 | Shift: 12764.3 | Split: 1 | Recall: 0 [BLAS-only]
+
+Iteration 5/10 | Objective: 5.63945e+08 | Objective improvement: 0.005512 | Shift: 7053.45 | Split: 1 | Recall: 0 [BLAS-only]
+
+
+=== PHASE 3: REFINEMENT (fine-tuning all 3347 clusters) ===
+Mesoclustering time: 260.34 ms
+Fineclustering time: 314.21 ms
+Refinement time: 0.000165 ms
+Total time: 574.55 ms
+
+========== PROFILER RESULTS ==========
+-------------------------------------------
+TOTAL                                        0.000s
+===========================================
+iter,objective,shift,split,recall,not_pruned_pct,partial_d,gemm_only,moves
+1,82141536256.000,2417611.500,2,0.000,-1.000,0,1,0
+2,52599980032.000,79806.852,0,0.000,-1.000,0,1,0
+3,51210305536.000,30777.184,0,0.000,-1.000,0,1,0
+4,475186208.000,861875.312,10,0.000,-1.000,0,1,0
+5,322624160.000,62100.660,4,0.000,-1.000,0,1,0
+6,309870720.000,21031.092,1,0.000,-1.000,0,1,0
+7,304652576.000,10337.985,0,0.000,-1.000,0,1,0
+8,301842624.000,6777.112,0,0.000,-1.000,0,1,0
+9,900032256.000,1526377.250,4,0.000,-1.000,0,1,0
+10,585527872.000,58854.781,2,0.000,-1.000,0,1,0
+11,572930368.000,18497.328,1,0.000,-1.000,0,1,0
+12,568244160.000,8831.884,0,0.000,-1.000,0,1,0
+13,565607040.000,5772.656,0,0.000,-1.000,0,1,0
+14,915468800.000,1531728.875,6,0.000,-1.000,0,1,0
+15,599701376.000,64184.320,0,0.000,-1.000,0,1,0
+16,581757376.000,24534.494,0,0.000,-1.000,0,1,0
+17,574476992.000,12788.633,0,0.000,-1.000,0,1,0
+18,570774080.000,6832.285,0,0.000,-1.000,0,1,0
+19,1166633472.000,1931046.500,11,0.000,-1.000,0,1,0
+20,792573760.000,85441.711,0,0.000,-1.000,0,1,0
+21,769006720.000,30358.367,0,0.000,-1.000,0,1,0
+22,759616192.000,14814.698,0,0.000,-1.000,0,1,0
+23,754951552.000,8861.494,0,0.000,-1.000,0,1,0
+24,582688704.000,988829.688,2,0.000,-1.000,0,1,0
+25,392276640.000,38387.734,0,0.000,-1.000,0,1,0
+26,381737344.000,15554.588,0,0.000,-1.000,0,1,0
+27,376771744.000,9669.509,0,0.000,-1.000,0,1,0
+28,373708448.000,5878.244,0,0.000,-1.000,0,1,0
+29,1525483136.000,2405386.750,6,0.000,-1.000,0,1,0
+30,1025309184.000,92310.336,1,0.000,-1.000,0,1,0
+31,999025984.000,36616.387,0,0.000,-1.000,0,1,0
+32,987844288.000,19104.699,0,0.000,-1.000,0,1,0
+33,981868608.000,11346.342,0,0.000,-1.000,0,1,0
+34,1093496192.000,1785477.250,15,0.000,-1.000,0,1,0
+35,763173440.000,99707.586,1,0.000,-1.000,0,1,0
+36,737899712.000,38978.355,0,0.000,-1.000,0,1,0
+37,727015872.000,17266.686,0,0.000,-1.000,0,1,0
+38,721797632.000,10371.538,0,0.000,-1.000,0,1,0
+39,860830080.000,1501854.375,4,0.000,-1.000,0,1,0
+40,551344512.000,44854.906,0,0.000,-1.000,0,1,0
+41,539058176.000,14229.043,0,0.000,-1.000,0,1,0
+42,534675008.000,7301.682,0,0.000,-1.000,0,1,0
+43,532376800.000,4691.709,0,0.000,-1.000,0,1,0
+44,697417472.000,1121851.625,9,0.000,-1.000,0,1,0
+45,480385888.000,54631.711,0,0.000,-1.000,0,1,0
+46,464962912.000,19825.223,0,0.000,-1.000,0,1,0
+47,458884352.000,10595.129,0,0.000,-1.000,0,1,0
+48,455462560.000,7043.642,0,0.000,-1.000,0,1,0
+49,881112832.000,1448338.250,8,0.000,-1.000,0,1,0
+50,592633024.000,54124.059,0,0.000,-1.000,0,1,0
+51,577858688.000,20299.900,0,0.000,-1.000,0,1,0
+52,572013312.000,10706.680,0,0.000,-1.000,0,1,0
+53,568893952.000,7064.175,0,0.000,-1.000,0,1,0
+54,1054970304.000,1735907.750,6,0.000,-1.000,0,1,0
+55,694847360.000,63079.883,1,0.000,-1.000,0,1,0
+56,676885888.000,24179.852,1,0.000,-1.000,0,1,0
+57,669827328.000,13176.264,0,0.000,-1.000,0,1,0
+58,665715200.000,8211.503,0,0.000,-1.000,0,1,0
+59,912461248.000,1486016.750,7,0.000,-1.000,0,1,0
+60,611774208.000,59383.820,1,0.000,-1.000,0,1,0
+61,596200960.000,22130.375,0,0.000,-1.000,0,1,0
+62,589833792.000,12363.952,0,0.000,-1.000,0,1,0
+63,586218496.000,7180.945,0,0.000,-1.000,0,1,0
+64,925875712.000,1498897.250,9,0.000,-1.000,0,1,0
+65,627507648.000,75334.805,2,0.000,-1.000,0,1,0
+66,608080448.000,26906.305,1,0.000,-1.000,0,1,0
+67,600002624.000,15816.359,0,0.000,-1.000,0,1,0
+68,595236544.000,11075.426,0,0.000,-1.000,0,1,0
+69,695665984.000,1177911.500,7,0.000,-1.000,0,1,0
+70,468381472.000,51913.781,1,0.000,-1.000,0,1,0
+71,454322944.000,17508.389,0,0.000,-1.000,0,1,0
+72,449049664.000,8239.161,0,0.000,-1.000,0,1,0
+73,446424512.000,5095.656,0,0.000,-1.000,0,1,0
+74,1089870720.000,1813258.375,4,0.000,-1.000,0,1,0
+75,706920896.000,59868.652,0,0.000,-1.000,0,1,0
+76,689207040.000,22635.803,0,0.000,-1.000,0,1,0
+77,682159552.000,10757.204,0,0.000,-1.000,0,1,0
+78,678854464.000,5924.328,0,0.000,-1.000,0,1,0
+79,650508928.000,1102928.875,2,0.000,-1.000,0,1,0
+80,429705664.000,42485.297,1,0.000,-1.000,0,1,0
+81,419233824.000,13785.042,0,0.000,-1.000,0,1,0
+82,415299264.000,6915.983,0,0.000,-1.000,0,1,0
+83,413147008.000,5366.828,0,0.000,-1.000,0,1,0
+84,772975168.000,1192855.125,11,0.000,-1.000,0,1,0
+85,544266432.000,63020.344,1,0.000,-1.000,0,1,0
+86,527236480.000,22879.604,1,0.000,-1.000,0,1,0
+87,520718176.000,11443.566,0,0.000,-1.000,0,1,0
+88,517431872.000,6755.056,0,0.000,-1.000,0,1,0
+89,1261118208.000,1972503.750,5,0.000,-1.000,0,1,0
+90,855803456.000,68129.445,0,0.000,-1.000,0,1,0
+91,836210304.000,27990.215,0,0.000,-1.000,0,1,0
+92,827440768.000,16078.453,0,0.000,-1.000,0,1,0
+93,822455680.000,9576.591,0,0.000,-1.000,0,1,0
+94,1508458752.000,2338750.750,10,0.000,-1.000,0,1,0
+95,1052063744.000,139085.672,1,0.000,-1.000,0,1,0
+96,1015856768.000,51376.031,0,0.000,-1.000,0,1,0
+97,1001244224.000,25678.744,0,0.000,-1.000,0,1,0
+98,993617664.000,15105.941,0,0.000,-1.000,0,1,0
+99,955372992.000,1596930.000,5,0.000,-1.000,0,1,0
+100,632670912.000,65463.219,0,0.000,-1.000,0,1,0
+101,614333312.000,21987.496,0,0.000,-1.000,0,1,0
+102,607550336.000,11042.464,0,0.000,-1.000,0,1,0
+103,604322496.000,5591.608,0,0.000,-1.000,0,1,0
+104,924431744.000,1584009.000,10,0.000,-1.000,0,1,0
+105,615423424.000,77759.789,1,0.000,-1.000,0,1,0
+106,594435968.000,26852.637,0,0.000,-1.000,0,1,0
+107,586126144.000,14869.073,0,0.000,-1.000,0,1,0
+108,581628608.000,8967.208,0,0.000,-1.000,0,1,0
+109,954368448.000,1503340.250,7,0.000,-1.000,0,1,0
+110,652623680.000,74997.680,2,0.000,-1.000,0,1,0
+111,633312448.000,30388.857,0,0.000,-1.000,0,1,0
+112,625195840.000,13639.114,0,0.000,-1.000,0,1,0
+113,621095744.000,8803.597,0,0.000,-1.000,0,1,0
+114,578348480.000,939844.000,4,0.000,-1.000,0,1,0
+115,393328832.000,31191.242,0,0.000,-1.000,0,1,0
+116,385181792.000,10729.945,0,0.000,-1.000,0,1,0
+117,382064416.000,7332.948,0,0.000,-1.000,0,1,0
+118,379945728.000,4962.261,0,0.000,-1.000,0,1,0
+119,614947200.000,1026561.875,5,0.000,-1.000,0,1,0
+120,417909568.000,41374.328,0,0.000,-1.000,0,1,0
+121,407194848.000,15249.927,0,0.000,-1.000,0,1,0
+122,402869440.000,7810.704,0,0.000,-1.000,0,1,0
+123,400408544.000,5200.376,0,0.000,-1.000,0,1,0
+124,1050817792.000,1665293.000,19,0.000,-1.000,0,1,0
+125,743258752.000,98559.336,4,0.000,-1.000,0,1,0
+126,719207040.000,34617.988,2,0.000,-1.000,0,1,0
+127,709623744.000,16809.785,1,0.000,-1.000,0,1,0
+128,704662464.000,9589.024,0,0.000,-1.000,0,1,0
+129,1433136000.000,2407383.250,13,0.000,-1.000,0,1,0
+130,957363136.000,93844.023,1,0.000,-1.000,0,1,0
+131,934626624.000,32739.383,1,0.000,-1.000,0,1,0
+132,925885376.000,17230.852,0,0.000,-1.000,0,1,0
+133,920863808.000,10779.591,0,0.000,-1.000,0,1,0
+134,1196812032.000,2061456.875,10,0.000,-1.000,0,1,0
+135,790708864.000,70135.250,0,0.000,-1.000,0,1,0
+136,771992576.000,25915.283,0,0.000,-1.000,0,1,0
+137,764582400.000,12878.230,0,0.000,-1.000,0,1,0
+138,760747968.000,8013.294,0,0.000,-1.000,0,1,0
+139,1086251392.000,1826713.500,9,0.000,-1.000,0,1,0
+140,722946496.000,66963.781,1,0.000,-1.000,0,1,0
+141,705207808.000,24137.951,0,0.000,-1.000,0,1,0
+142,698369408.000,12988.484,0,0.000,-1.000,0,1,0
+143,694814528.000,7560.560,0,0.000,-1.000,0,1,0
+144,854762112.000,1445623.000,4,0.000,-1.000,0,1,0
+145,550149312.000,64848.258,0,0.000,-1.000,0,1,0
+146,531991936.000,22531.195,0,0.000,-1.000,0,1,0
+147,525200384.000,10955.734,0,0.000,-1.000,0,1,0
+148,521667392.000,6790.371,0,0.000,-1.000,0,1,0
+149,1147556736.000,1965886.250,12,0.000,-1.000,0,1,0
+150,774974976.000,93525.211,1,0.000,-1.000,0,1,0
+151,751556288.000,27842.898,0,0.000,-1.000,0,1,0
+152,743741824.000,13763.967,0,0.000,-1.000,0,1,0
+153,739829376.000,9036.061,0,0.000,-1.000,0,1,0
+154,901946432.000,1485209.375,3,0.000,-1.000,0,1,0
+155,588979264.000,47832.879,0,0.000,-1.000,0,1,0
+156,575715200.000,15944.048,0,0.000,-1.000,0,1,0
+157,570880128.000,8724.260,0,0.000,-1.000,0,1,0
+158,568182016.000,5804.688,0,0.000,-1.000,0,1,0
+159,782377856.000,1324630.375,4,0.000,-1.000,0,1,0
+160,523463776.000,59208.820,1,0.000,-1.000,0,1,0
+161,507075136.000,24005.539,1,0.000,-1.000,0,1,0
+162,500052512.000,14931.582,0,0.000,-1.000,0,1,0
+163,495537472.000,9331.680,0,0.000,-1.000,0,1,0
+164,521254272.000,865440.688,2,0.000,-1.000,0,1,0
+165,342360576.000,28822.773,0,0.000,-1.000,0,1,0
+166,334044128.000,9750.266,0,0.000,-1.000,0,1,0
+167,331162304.000,4546.693,0,0.000,-1.000,0,1,0
+168,329793856.000,2661.110,0,0.000,-1.000,0,1,0
+169,827703296.000,1396908.750,14,0.000,-1.000,0,1,0
+170,573053824.000,67784.789,1,0.000,-1.000,0,1,0
+171,556921024.000,24784.766,0,0.000,-1.000,0,1,0
+172,549971136.000,13160.485,0,0.000,-1.000,0,1,0
+173,546146112.000,9092.531,0,0.000,-1.000,0,1,0
+174,386410048.000,624869.875,6,0.000,-1.000,0,1,0
+175,275263552.000,38715.992,0,0.000,-1.000,0,1,0
+176,266019104.000,13006.309,0,0.000,-1.000,0,1,0
+177,262587152.000,6677.628,0,0.000,-1.000,0,1,0
+178,260798240.000,4198.044,0,0.000,-1.000,0,1,0
+179,1004157568.000,1718370.875,7,0.000,-1.000,0,1,0
+180,665752320.000,76247.406,0,0.000,-1.000,0,1,0
+181,645295104.000,26677.715,0,0.000,-1.000,0,1,0
+182,637383616.000,12001.547,0,0.000,-1.000,0,1,0
+183,633633536.000,7461.861,0,0.000,-1.000,0,1,0
+184,765492288.000,1325473.125,3,0.000,-1.000,0,1,0
+185,492484320.000,36590.141,1,0.000,-1.000,0,1,0
+186,482761920.000,12812.686,0,0.000,-1.000,0,1,0
+187,478867488.000,7490.177,0,0.000,-1.000,0,1,0
+188,476417056.000,5236.393,0,0.000,-1.000,0,1,0
+189,1108393088.000,1845621.000,9,0.000,-1.000,0,1,0
+190,730722432.000,61770.020,0,0.000,-1.000,0,1,0
+191,713131840.000,23306.418,0,0.000,-1.000,0,1,0
+192,706046016.000,11776.692,0,0.000,-1.000,0,1,0
+193,702388416.000,7425.688,0,0.000,-1.000,0,1,0
+194,720325952.000,1208041.750,8,0.000,-1.000,0,1,0
+195,492718080.000,79078.117,2,0.000,-1.000,0,1,0
+196,471366368.000,22806.830,0,0.000,-1.000,0,1,0
+197,465141600.000,8987.138,0,0.000,-1.000,0,1,0
+198,462503616.000,5726.931,0,0.000,-1.000,0,1,0
+199,1220069760.000,2076997.000,9,0.000,-1.000,0,1,0
+200,794566272.000,67813.055,1,0.000,-1.000,0,1,0
+201,776536512.000,23905.109,0,0.000,-1.000,0,1,0
+202,769524096.000,14213.008,0,0.000,-1.000,0,1,0
+203,765323904.000,8679.910,0,0.000,-1.000,0,1,0
+204,749308288.000,1232008.250,3,0.000,-1.000,0,1,0
+205,500035296.000,46886.172,0,0.000,-1.000,0,1,0
+206,487157920.000,19096.611,0,0.000,-1.000,0,1,0
+207,481593376.000,10086.094,0,0.000,-1.000,0,1,0
+208,478685888.000,5468.678,0,0.000,-1.000,0,1,0
+209,1267131648.000,2100154.250,10,0.000,-1.000,0,1,0
+210,845241600.000,75111.047,0,0.000,-1.000,0,1,0
+211,824968960.000,24974.311,0,0.000,-1.000,0,1,0
+212,817773888.000,12136.523,0,0.000,-1.000,0,1,0
+213,814211392.000,7965.118,0,0.000,-1.000,0,1,0
+214,933206528.000,1625491.000,17,0.000,-1.000,0,1,0
+215,640216064.000,84764.195,4,0.000,-1.000,0,1,0
+216,620032896.000,30308.576,1,0.000,-1.000,0,1,0
+217,612125440.000,13470.040,0,0.000,-1.000,0,1,0
+218,608420352.000,7827.956,0,0.000,-1.000,0,1,0
+219,1263974656.000,2148514.000,15,0.000,-1.000,0,1,0
+220,853202432.000,83323.234,2,0.000,-1.000,0,1,0
+221,832250624.000,28371.236,1,0.000,-1.000,0,1,0
+222,824411968.000,14179.432,0,0.000,-1.000,0,1,0
+223,820224000.000,8882.859,0,0.000,-1.000,0,1,0
+224,1275366144.000,2083635.750,6,0.000,-1.000,0,1,0
+225,843395456.000,74894.586,0,0.000,-1.000,0,1,0
+226,821048320.000,27592.314,0,0.000,-1.000,0,1,0
+227,812198528.000,15097.531,0,0.000,-1.000,0,1,0
+228,807259648.000,9661.742,0,0.000,-1.000,0,1,0
+229,638041152.000,1094744.625,14,0.000,-1.000,0,1,0
+230,440143936.000,54222.203,2,0.000,-1.000,0,1,0
+231,425827392.000,20218.389,0,0.000,-1.000,0,1,0
+232,419569056.000,11088.518,0,0.000,-1.000,0,1,0
+233,416089280.000,6752.504,0,0.000,-1.000,0,1,0
+234,695888192.000,1117857.250,20,0.000,-1.000,0,1,0
+235,516315424.000,84739.000,5,0.000,-1.000,0,1,0
+236,498780064.000,32141.697,1,0.000,-1.000,0,1,0
+237,491253536.000,19978.863,1,0.000,-1.000,0,1,0
+238,486435232.000,12989.903,0,0.000,-1.000,0,1,0
+239,763742912.000,1315498.625,4,0.000,-1.000,0,1,0
+240,501923136.000,49268.516,1,0.000,-1.000,0,1,0
+241,489274336.000,18673.881,1,0.000,-1.000,0,1,0
+242,484144096.000,9692.332,0,0.000,-1.000,0,1,0
+243,481335904.000,6614.704,0,0.000,-1.000,0,1,0
+244,1431020928.000,2291060.750,33,0.000,-1.000,0,1,0
+245,1034561536.000,118340.727,3,0.000,-1.000,0,1,0
+246,1006684800.000,44129.184,1,0.000,-1.000,0,1,0
+247,995407936.000,20817.854,1,0.000,-1.000,0,1,0
+248,989724416.000,12553.676,1,0.000,-1.000,0,1,0
+249,1035643200.000,1669493.500,8,0.000,-1.000,0,1,0
+250,710016704.000,71432.984,1,0.000,-1.000,0,1,0
+251,690082304.000,35919.145,1,0.000,-1.000,0,1,0
+252,681835968.000,26366.295,1,0.000,-1.000,0,1,0
+253,676839872.000,13603.540,1,0.000,-1.000,0,1,0
+254,1082288000.000,1819926.875,12,0.000,-1.000,0,1,0
+255,722602304.000,67150.891,0,0.000,-1.000,0,1,0
+256,704287232.000,22778.734,0,0.000,-1.000,0,1,0
+257,697497152.000,11532.004,0,0.000,-1.000,0,1,0
+258,694064960.000,6657.485,0,0.000,-1.000,0,1,0
+259,1164689792.000,1913910.500,7,0.000,-1.000,0,1,0
+260,771688064.000,67132.531,1,0.000,-1.000,0,1,0
+261,754842560.000,23601.713,1,0.000,-1.000,0,1,0
+262,748249216.000,12591.125,0,0.000,-1.000,0,1,0
+263,744430144.000,7933.866,0,0.000,-1.000,0,1,0
+264,953695488.000,1440866.125,15,0.000,-1.000,0,1,0
+265,689084096.000,77721.297,0,0.000,-1.000,0,1,0
+266,669424960.000,30921.574,1,0.000,-1.000,0,1,0
+267,661644992.000,16778.664,0,0.000,-1.000,0,1,0
+268,657368704.000,9741.530,0,0.000,-1.000,0,1,0
+269,670204800.000,1211470.375,6,0.000,-1.000,0,1,0
+270,428337184.000,56380.980,2,0.000,-1.000,0,1,0
+271,414953024.000,18296.734,0,0.000,-1.000,0,1,0
+272,410338112.000,9031.710,0,0.000,-1.000,0,1,0
+273,407868480.000,5436.730,0,0.000,-1.000,0,1,0
+274,1038741824.000,1769412.000,12,0.000,-1.000,0,1,0
+275,707475392.000,79046.453,1,0.000,-1.000,0,1,0
+276,688896256.000,24543.104,0,0.000,-1.000,0,1,0
+277,682069120.000,13979.859,0,0.000,-1.000,0,1,0
+278,678138048.000,8151.833,0,0.000,-1.000,0,1,0
+279,739053760.000,1324195.250,4,0.000,-1.000,0,1,0
+280,472135328.000,59281.461,2,0.000,-1.000,0,1,0
+281,457735744.000,23165.670,0,0.000,-1.000,0,1,0
+282,451309984.000,13175.119,0,0.000,-1.000,0,1,0
+283,447525632.000,7888.355,0,0.000,-1.000,0,1,0
+284,1242745600.000,1940807.750,8,0.000,-1.000,0,1,0
+285,846174464.000,76500.352,0,0.000,-1.000,0,1,0
+286,824998016.000,31276.412,0,0.000,-1.000,0,1,0
+287,815726976.000,16409.006,0,0.000,-1.000,0,1,0
+288,810683008.000,10126.852,0,0.000,-1.000,0,1,0
+289,878976704.000,1497544.500,6,0.000,-1.000,0,1,0
+290,589604416.000,71332.258,2,0.000,-1.000,0,1,0
+291,573028160.000,23864.188,2,0.000,-1.000,0,1,0
+292,567070592.000,12764.316,1,0.000,-1.000,0,1,0
+293,563944896.000,7053.446,1,0.000,-1.000,0,1,0
+train_ms,609.314

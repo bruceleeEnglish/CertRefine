@@ -1,0 +1,27 @@
+config,hier=0,hartigan=0,candk=64,candr=5,sampling=1,maxppc=1073741824,early=0,iters=5,init=1,nq=0
+Front dimensions (d') = 32
+Trailing dimensions (d'') = 64
+Sampling data...
+Using 1000000 vectors
+Iteration 1/5 | Objective: 5.18252e+10 | Objective improvement: 0 | Shift: 284410 | Split: 0 | Recall: 0 [BLAS-only]
+
+Iteration 2/5 [CAND K=64] | Objective: 5.14346e+10 | Recall: 0 | Moves: 94850 | graph refreshed
+
+Iteration 3/5 [CAND K=64] | Objective: 5.12756e+10 | Recall: 0 | Moves: 68676
+
+Iteration 4/5 [CAND K=64] | Objective: 5.11732e+10 | Recall: 0 | Moves: 55574
+
+Iteration 5/5 [CAND K=64] | Objective: 5.10981e+10 | Recall: 0 | Moves: 47129
+
+
+========== PROFILER RESULTS ==========
+-------------------------------------------
+TOTAL                                        0.000s
+===========================================
+iter,objective,shift,split,recall,not_pruned_pct,partial_d,gemm_only,moves
+1,51825242112.000,284409.750,0,0.000,-1.000,0,1,0
+2,51434602496.000,100699.023,0,0.000,-1.000,128,0,94850
+3,51275644928.000,63341.605,0,0.000,-1.000,128,0,68676
+4,51173163008.000,45433.098,0,0.000,-1.000,128,0,55574
+5,51098058752.000,35002.926,0,0.000,-1.000,128,0,47129
+train_ms,974.052

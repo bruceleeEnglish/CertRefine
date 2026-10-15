@@ -1,0 +1,87 @@
+config,hier=0,hartigan=1,candk=64,candr=5,sampling=1,maxppc=1073741824,early=0,iters=25,init=0,nq=0
+Front dimensions (d') = 32
+Trailing dimensions (d'') = 320
+Sampling data...
+Using 677305 vectors
+Iteration 1/25 | Objective: 707535 | Objective improvement: 0 | Shift: 1276.5 | Split: 0 | Recall: 0 [BLAS-only]
+
+Iteration 2/25 [CAND K=64] | Objective: 440271 | Recall: 0 | Moves: 240962 | graph refreshed
+
+Iteration 3/25 [CAND K=64] | Objective: 427543 | Recall: 0 | Moves: 138120
+
+Iteration 4/25 [CAND K=64] | Objective: 422019 | Recall: 0 | Moves: 87425
+
+Iteration 5/25 [CAND K=64] | Objective: 419150 | Recall: 0 | Moves: 58757
+
+Iteration 6/25 [CAND K=64] | Objective: 417465 | Recall: 0 | Moves: 42567
+
+Iteration 7/25 [CAND K=64] | Objective: 415472 | Recall: 0 | Moves: 49180 | graph refreshed
+
+Iteration 8/25 [CAND K=64] | Objective: 414200 | Recall: 0 | Moves: 33540
+
+Iteration 9/25 [CAND K=64] | Objective: 413396 | Recall: 0 | Moves: 26111
+
+Iteration 10/25 [CAND K=64] | Objective: 412816 | Recall: 0 | Moves: 20971
+
+Iteration 11/25 [CAND K=64] | Objective: 412391 | Recall: 0 | Moves: 17411
+
+Iteration 12/25 [CAND K=64] | Objective: 411864 | Recall: 0 | Moves: 18634 | graph refreshed
+
+Iteration 13/25 [CAND K=64] | Objective: 411522 | Recall: 0 | Moves: 14137
+
+Iteration 14/25 [CAND K=64] | Objective: 411277 | Recall: 0 | Moves: 11985
+
+Iteration 15/25 [CAND K=64] | Objective: 411072 | Recall: 0 | Moves: 10356
+
+Iteration 16/25 [CAND K=64] | Objective: 410914 | Recall: 0 | Moves: 9096
+
+Iteration 17/25 [CAND K=64] | Objective: 410684 | Recall: 0 | Moves: 9514 | graph refreshed
+
+Iteration 18/25 [CAND K=64] | Objective: 410527 | Recall: 0 | Moves: 7877
+
+Iteration 19/25 [CAND K=64] | Objective: 410404 | Recall: 0 | Moves: 6810
+
+Iteration 20/25 [CAND K=64] | Objective: 410305 | Recall: 0 | Moves: 6026
+
+Iteration 21/25 [CAND K=64] | Objective: 410212 | Recall: 0 | Moves: 5485
+
+Iteration 22/25 [CAND K=64] | Objective: 410081 | Recall: 0 | Moves: 5808 | graph refreshed
+
+Iteration 23/25 [CAND K=64] | Objective: 409995 | Recall: 0 | Moves: 4864
+
+Iteration 24/25 [CAND K=64] | Objective: 409918 | Recall: 0 | Moves: 4292
+
+Iteration 25/25 [CAND K=64] | Objective: 409856 | Recall: 0 | Moves: 3839
+
+
+========== PROFILER RESULTS ==========
+-------------------------------------------
+TOTAL                                        0.000s
+===========================================
+iter,objective,shift,split,recall,not_pruned_pct,partial_d,gemm_only,moves
+1,707535.188,1276.505,0,0.000,-1.000,0,1,0
+2,440271.062,43.483,0,0.000,-1.000,384,0,240962
+3,427543.344,18.451,0,0.000,-1.000,384,0,138120
+4,422019.219,9.674,0,0.000,-1.000,384,0,87425
+5,419150.375,5.739,0,0.000,-1.000,384,0,58757
+6,417464.969,3.792,0,0.000,-1.000,384,0,42567
+7,415472.188,4.387,0,0.000,-1.000,384,0,49180
+8,414200.062,2.762,0,0.000,-1.000,384,0,33540
+9,413395.500,2.005,0,0.000,-1.000,384,0,26111
+10,412815.688,1.458,0,0.000,-1.000,384,0,20971
+11,412390.969,1.140,0,0.000,-1.000,384,0,17411
+12,411864.500,1.144,0,0.000,-1.000,384,0,18634
+13,411521.906,0.817,0,0.000,-1.000,384,0,14137
+14,411276.969,0.673,0,0.000,-1.000,384,0,11985
+15,411072.375,0.568,0,0.000,-1.000,384,0,10356
+16,410913.625,0.486,0,0.000,-1.000,384,0,9096
+17,410684.344,0.514,0,0.000,-1.000,384,0,9514
+18,410526.719,0.418,0,0.000,-1.000,384,0,7877
+19,410404.094,0.363,0,0.000,-1.000,384,0,6810
+20,410305.250,0.316,0,0.000,-1.000,384,0,6026
+21,410211.969,0.289,0,0.000,-1.000,384,0,5485
+22,410080.531,0.308,0,0.000,-1.000,384,0,5808
+23,409995.062,0.250,0,0.000,-1.000,384,0,4864
+24,409918.375,0.224,0,0.000,-1.000,384,0,4292
+25,409856.469,0.203,0,0.000,-1.000,384,0,3839
+train_ms,6568.305

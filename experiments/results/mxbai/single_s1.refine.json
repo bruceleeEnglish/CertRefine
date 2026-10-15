@@ -1,0 +1,57 @@
+{
+ "ds": "mxbai",
+ "seed": 1,
+ "K": 64,
+ "cert": "single",
+ "hist": [
+  {
+   "epoch": 0,
+   "labels_md5": "582da4893d7d41fdfe3d32951a43d3b0"
+  },
+  {
+   "epoch": 1,
+   "moves": 119282,
+   "pairs_total": 49240448,
+   "pairs_skipped": 0,
+   "skipped_pct": 0.0,
+   "epoch_s": 1.8661258690990508,
+   "labels_md5": "9fce47db476abb6dea1fa4facd29fd1c"
+  },
+  {
+   "epoch": 2,
+   "moves": 71402,
+   "pairs_total": 49240448,
+   "pairs_skipped": 173376,
+   "skipped_pct": 0.3521007769872443,
+   "epoch_s": 1.6663238150067627,
+   "labels_md5": "6a4c54b8c4529a72c3e97e785fcc2118"
+  },
+  {
+   "epoch": 3,
+   "moves": 48405,
+   "pairs_total": 49240448,
+   "pairs_skipped": 698944,
+   "skipped_pct": 1.419450935945993,
+   "epoch_s": 1.615960044087842,
+   "labels_md5": "e327e70d085d91df067c36703a5f1c70"
+  },
+  {
+   "epoch": 4,
+   "moves": 34953,
+   "pairs_total": 49240448,
+   "pairs_skipped": 1690432,
+   "skipped_pct": 3.433015069237388,
+   "epoch_s": 1.4731439909664914,
+   "labels_md5": "d562d746c0513d8778510ce2836a7194"
+  },
+  {
+   "epoch": 5,
+   "moves": 26840,
+   "pairs_total": 49240448,
+   "pairs_skipped": 2172480,
+   "skipped_pct": 4.41198260422001,
+   "epoch_s": 1.433173586963676,
+   "labels_md5": "39b3134f599a5d1c0858d8ee05f4184a"
+  }
+ ]
+}

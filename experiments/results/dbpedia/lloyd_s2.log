@@ -1,0 +1,87 @@
+config,hier=0,hartigan=0,candk=0,candr=5,sampling=1,maxppc=1073741824,early=0,iters=25,init=0,nq=0
+Front dimensions (d') = 192
+Trailing dimensions (d'') = 1152
+Sampling data...
+Using 229772 vectors
+Iteration 1/25 | Objective: 82510.6 | Objective improvement: 0 | Shift: 274.607 | Split: 0 | Recall: 0 [BLAS-only]
+
+Iteration 2/25 | Objective: 48207.4 | Objective improvement: 0.415743 | Shift: 11.489 | Split: 0 | Recall: 0 | Not Pruned %: 2.92812 | d': 192 -> 154
+
+Iteration 3/25 | Objective: 46673.9 | Objective improvement: 0.0318097 | Shift: 4.94567 | Split: 0 | Recall: 0 | Not Pruned %: 1.66828 | d': 154 -> 124
+
+Iteration 4/25 | Objective: 46105.5 | Objective improvement: 0.0121776 | Shift: 2.24229 | Split: 0 | Recall: 0 | Not Pruned %: 2.04752 | d': 124 -> 100
+
+Iteration 5/25 | Objective: 45816.2 | Objective improvement: 0.00627518 | Shift: 1.46522 | Split: 0 | Recall: 0 | Not Pruned %: 2.76877 | d': 100 -> 80
+
+Iteration 6/25 | Objective: 45637.7 | Objective improvement: 0.003896 | Shift: 0.940872 | Split: 0 | Recall: 0 | Not Pruned %: 4.26243 | d': 80 -> 80
+
+Iteration 7/25 | Objective: 45527.1 | Objective improvement: 0.00242341 | Shift: 0.623338 | Split: 0 | Recall: 0 | Not Pruned %: 4.11947 | d': 80 -> 80
+
+Iteration 8/25 | Objective: 45449.2 | Objective improvement: 0.00171137 | Shift: 0.501439 | Split: 0 | Recall: 0 | Not Pruned %: 4.02052 | d': 80 -> 80
+
+Iteration 9/25 | Objective: 45391.1 | Objective improvement: 0.00127709 | Shift: 0.362166 | Split: 0 | Recall: 0 | Not Pruned %: 3.95027 | d': 80 -> 80
+
+Iteration 10/25 | Objective: 45347.6 | Objective improvement: 0.000959516 | Shift: 0.268976 | Split: 0 | Recall: 0 | Not Pruned %: 3.89765 | d': 80 -> 80
+
+Iteration 11/25 | Objective: 45314.6 | Objective improvement: 0.000727117 | Shift: 0.207383 | Split: 0 | Recall: 0 | Not Pruned %: 3.86002 | d': 80 -> 80
+
+Iteration 12/25 | Objective: 45287.7 | Objective improvement: 0.000594199 | Shift: 0.186783 | Split: 0 | Recall: 0 | Not Pruned %: 3.83203 | d': 80 -> 80
+
+Iteration 13/25 | Objective: 45264.6 | Objective improvement: 0.000509143 | Shift: 0.13437 | Split: 0 | Recall: 0 | Not Pruned %: 3.8092 | d': 80 -> 80
+
+Iteration 14/25 | Objective: 45247.9 | Objective improvement: 0.0003708 | Shift: 0.137064 | Split: 0 | Recall: 0 | Not Pruned %: 3.7921 | d': 80 -> 80
+
+Iteration 15/25 | Objective: 45233.2 | Objective improvement: 0.000323057 | Shift: 0.106839 | Split: 0 | Recall: 0 | Not Pruned %: 3.77635 | d': 80 -> 80
+
+Iteration 16/25 | Objective: 45221.9 | Objective improvement: 0.000251114 | Shift: 0.084059 | Split: 0 | Recall: 0 | Not Pruned %: 3.76341 | d': 80 -> 80
+
+Iteration 17/25 | Objective: 45213.1 | Objective improvement: 0.000193894 | Shift: 0.0701742 | Split: 0 | Recall: 0 | Not Pruned %: 3.75193 | d': 80 -> 80
+
+Iteration 18/25 | Objective: 45204.7 | Objective improvement: 0.000186265 | Shift: 0.0634853 | Split: 0 | Recall: 0 | Not Pruned %: 3.74397 | d': 80 -> 80
+
+Iteration 19/25 | Objective: 45197.6 | Objective improvement: 0.000156403 | Shift: 0.0479171 | Split: 0 | Recall: 0 | Not Pruned %: 3.73609 | d': 80 -> 80
+
+Iteration 20/25 | Objective: 45192.7 | Objective improvement: 0.000108659 | Shift: 0.0378798 | Split: 0 | Recall: 0 | Not Pruned %: 3.73042 | d': 80 -> 80
+
+Iteration 21/25 | Objective: 45188.3 | Objective improvement: 9.81688e-05 | Shift: 0.040338 | Split: 0 | Recall: 0 | Not Pruned %: 3.72526 | d': 80 -> 80
+
+Iteration 22/25 | Objective: 45184.2 | Objective improvement: 8.9407e-05 | Shift: 0.0339458 | Split: 0 | Recall: 0 | Not Pruned %: 3.72032 | d': 80 -> 80
+
+Iteration 23/25 | Objective: 45180.5 | Objective improvement: 8.35061e-05 | Shift: 0.02874 | Split: 0 | Recall: 0 | Not Pruned %: 3.71561 | d': 80 -> 80
+
+Iteration 24/25 | Objective: 45177.1 | Objective improvement: 7.46846e-05 | Shift: 0.0306282 | Split: 0 | Recall: 0 | Not Pruned %: 3.71177 | d': 80 -> 80
+
+Iteration 25/25 | Objective: 45173.4 | Objective improvement: 8.05855e-05 | Shift: 0.0281611 | Split: 0 | Recall: 0 | Not Pruned %: 3.70781 | d': 80 -> 80
+
+
+========== PROFILER RESULTS ==========
+-------------------------------------------
+TOTAL                                        0.000s
+===========================================
+iter,objective,shift,split,recall,not_pruned_pct,partial_d,gemm_only,moves
+1,82510.602,274.607,0,0.000,-1.000,0,1,0
+2,48207.363,11.489,0,0.000,0.029,192,0,0
+3,46673.902,4.946,0,0.000,0.017,154,0,0
+4,46105.523,2.242,0,0.000,0.020,124,0,0
+5,45816.203,1.465,0,0.000,0.028,100,0,0
+6,45637.703,0.941,0,0.000,0.043,80,0,0
+7,45527.105,0.623,0,0.000,0.041,80,0,0
+8,45449.191,0.501,0,0.000,0.040,80,0,0
+9,45391.148,0.362,0,0.000,0.040,80,0,0
+10,45347.594,0.269,0,0.000,0.039,80,0,0
+11,45314.621,0.207,0,0.000,0.039,80,0,0
+12,45287.695,0.187,0,0.000,0.038,80,0,0
+13,45264.637,0.134,0,0.000,0.038,80,0,0
+14,45247.852,0.137,0,0.000,0.038,80,0,0
+15,45233.234,0.107,0,0.000,0.038,80,0,0
+16,45221.875,0.084,0,0.000,0.038,80,0,0
+17,45213.105,0.070,0,0.000,0.038,80,0,0
+18,45204.684,0.063,0,0.000,0.037,80,0,0
+19,45197.613,0.048,0,0.000,0.037,80,0,0
+20,45192.703,0.038,0,0.000,0.037,80,0,0
+21,45188.266,0.040,0,0.000,0.037,80,0,0
+22,45184.227,0.034,0,0.000,0.037,80,0,0
+23,45180.453,0.029,0,0.000,0.037,80,0,0
+24,45177.078,0.031,0,0.000,0.037,80,0,0
+25,45173.438,0.028,0,0.000,0.037,80,0,0
+train_ms,10868.554

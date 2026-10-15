@@ -1,0 +1,39 @@
+{
+ "ds": "glove200",
+ "n": 1183514,
+ "d": 200,
+ "c": 4352,
+ "K": 64,
+ "T": 4096,
+ "rule": "hartigan",
+ "update": "seq",
+ "cert": true,
+ "init": "labels",
+ "final": "none",
+ "ann_nprobe": 8,
+ "refresh": 0,
+ "seed": 2,
+ "tag": "cr_labdg",
+ "threads": 20,
+ "timing": {
+  "hier_s": 1.401145,
+  "graph0_s": 0.07429479795973748,
+  "init_assign_s": 0.0005716050509363413,
+  "setup_s": 0.05605443997774273
+ },
+ "diag": {
+  "agree_exact": 0.6826661957526484,
+  "hier_labels_agree_exact": 0.6826661957526484,
+  "final_voronoi_agree": 0.6826636609283878
+ },
+ "hist": [
+  {
+   "epoch": 0,
+   "total_s": 1.5320658429884166,
+   "empty": 0,
+   "init_moved": 0,
+   "init_hops": null,
+   "labels_md5": "41ed3a3df7cdc205f22f262b5e33f9a1"
+  }
+ ]
+}

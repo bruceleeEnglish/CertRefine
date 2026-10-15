@@ -1,0 +1,39 @@
+{
+ "ds": "deep10m",
+ "n": 9990000,
+ "d": 96,
+ "c": 12649,
+ "K": 64,
+ "T": 4096,
+ "rule": "hartigan",
+ "update": "seq",
+ "cert": true,
+ "init": "labels",
+ "final": "none",
+ "ann_nprobe": 8,
+ "refresh": 0,
+ "seed": 1,
+ "tag": "cr_labdg",
+ "threads": 20,
+ "timing": {
+  "hier_s": 8.748289000000002,
+  "graph0_s": 0.2200500639155507,
+  "init_assign_s": 0.015472430968657136,
+  "setup_s": 0.27989001490641385
+ },
+ "diag": {
+  "agree_exact": 0.7136078078078079,
+  "hier_labels_agree_exact": 0.7136078078078079,
+  "final_voronoi_agree": 0.7136093093093093
+ },
+ "hist": [
+  {
+   "epoch": 0,
+   "total_s": 9.263701509790623,
+   "empty": 0,
+   "init_moved": 0,
+   "init_hops": null,
+   "labels_md5": "f68d9ad6fefc4d49134dd4da72d528e1"
+  }
+ ]
+}

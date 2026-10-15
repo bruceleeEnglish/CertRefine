@@ -1,0 +1,39 @@
+{
+ "ds": "sift",
+ "n": 1000000,
+ "d": 128,
+ "c": 4000,
+ "K": 64,
+ "T": 4096,
+ "rule": "hartigan",
+ "update": "seq",
+ "cert": true,
+ "init": "labels",
+ "final": "none",
+ "ann_nprobe": 8,
+ "refresh": 0,
+ "seed": 2,
+ "tag": "cr_labdg",
+ "threads": 20,
+ "timing": {
+  "hier_s": 0.8279869999999999,
+  "graph0_s": 0.0666964459232986,
+  "init_assign_s": 0.0004958660574629903,
+  "setup_s": 0.03409396891947836
+ },
+ "diag": {
+  "agree_exact": 0.738726,
+  "hier_labels_agree_exact": 0.738726,
+  "final_voronoi_agree": 0.738746
+ },
+ "hist": [
+  {
+   "epoch": 0,
+   "total_s": 0.9292732809002399,
+   "empty": 0,
+   "init_moved": 0,
+   "init_hops": null,
+   "labels_md5": "bc6682a389c43666188345859bada8f6"
+  }
+ ]
+}

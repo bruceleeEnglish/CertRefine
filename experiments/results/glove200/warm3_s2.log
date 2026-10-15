@@ -1,0 +1,4 @@
+config,faiss_kmeans niter=3 mpc=2000000000 init=hier c=4352 seed=2 omp=20
+hier_ms,1401.1
+lloyd_ms,9319.1
+train_ms,10720.2

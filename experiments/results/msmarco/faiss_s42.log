@@ -1,0 +1,2 @@
+config,faiss_kmeans niter=25 mpc=2000000000 c=11894 seed=42 omp=20
+train_ms,2371349.8

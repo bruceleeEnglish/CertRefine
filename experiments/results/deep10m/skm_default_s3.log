@@ -1,0 +1,32 @@
+config,hier=0,hartigan=0,candk=0,candr=5,sampling=0.3,maxppc=256,early=1,iters=10,init=0,nq=1000
+Front dimensions (d') = 48
+Trailing dimensions (d'') = 0
+Sampling data...
+Sampling 2997000 vectors
+Using 2997000 vectors
+Centroids to explore: 126 (1% of 12649)
+Sampling queries from data...
+Sampling 1000 vectors
+Iteration 1/10 | Objective: 1.68467e+06 | Objective improvement: 0 | Shift: 2198.8 | Split: 0 | Recall: 0.927979 [BLAS-only]
+
+Iteration 2/10 | Objective: 1.2084e+06 | Objective improvement: 0.282708 | Shift: 123.161 | Split: 0 | Recall: 0.948619 [BLAS-only]
+
+Iteration 3/10 | Objective: 1.1733e+06 | Objective improvement: 0.0290489 | Shift: 48.5385 | Split: 0 | Recall: 0.953929 [BLAS-only]
+
+Iteration 4/10 | Objective: 1.1589e+06 | Objective improvement: 0.0122738 | Shift: 26.5201 | Split: 0 | Recall: 0.956759 [BLAS-only]
+
+Iteration 5/10 | Objective: 1.15087e+06 | Objective improvement: 0.006926 | Shift: 16.8318 | Split: 0 | Recall: 0.958749 [BLAS-only]
+
+Converged at iteration 5 (recall 0.958749 hasn't improved by more than 0.005 in 2 iterations, best: 0.953929)
+
+========== PROFILER RESULTS ==========
+-------------------------------------------
+TOTAL                                        0.000s
+===========================================
+iter,objective,shift,split,recall,not_pruned_pct,partial_d,gemm_only,moves
+1,1684673.500,2198.803,0,0.928,-1.000,0,1,0
+2,1208402.125,123.161,0,0.949,-1.000,0,1,0
+3,1173299.375,48.538,0,0.954,-1.000,0,1,0
+4,1158898.500,26.520,0,0.957,-1.000,0,1,0
+5,1150872.000,16.832,0,0.959,-1.000,0,1,0
+train_ms,92962.747
