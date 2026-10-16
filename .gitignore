@@ -2,3 +2,5 @@ __pycache__/
 *.pyc
 checks/make_assets_last_run.log
 SuperCDKM/build/
+# output of experiments/analysis/make_assets.py (numbers, tables and figures of the paper); regenerate it from the logs
+paper/
